@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "1e8c36af-1943-4a9e-9d5d-44525373ac3b",
+		"name": "MAKE TRUE TRIP - UAT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Authenticate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"UserName\": \"MakeTrueTrip\",\r\n  \"Password\": \"j9iuuXT@11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ibe.itq.in/B2BAPI/Api/flight/Authenticate"
+			},
+			"response": []
+		},
+		{
+			"name": "2. Availability",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ClientCode\": \"MakeTrueTrip\",\r\n    \"Trip\": 1,\r\n    \"TripType\": 1,\r\n    \"Adult\": 1,\r\n    \"Child\": 0,\r\n    \"Infant\": 0,\r\n    \"NonStop\": false,\r\n    \"PreferredClass\": \"\",\r\n    \"PreferredCarrier\": \"\",\r\n    \"RTF\": false,\r\n    \"SessionID\": \"AAF85DE9-6171-4745-983A-546875D87A82\",\r\n    \"Segments\": [\r\n        {\r\n            \"Origin\": \"DEL\",\r\n            \"Destination\": \"BOM\",\r\n            \"DepartDate\": \"26/02/2022\",\r\n            \"PreferredClass\": \"\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ibe.itq.in/B2BAPI/Api/flight/Availability"
+			},
+			"response": []
+		},
+		{
+			"name": "Fare Rule - Non LCC",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"SessionID\": \"A617E21C-6339-4F8F-B358-BCD02962170F\",\r\n    \"Key\": \"05074530-dc31-442b-87f9-d8e2ea62f82d\",\r\n  \"ResultIndex\": \"1\",\r\n  \"Pricingkey\": \"211EconomyEY0-Stop202201012022010104000630NRMFalseFalse210EconomyEY0-Stop202201102022011007301220NRMFalseFalse\",\r\n  \"UserID\": \"MakeTrueTrip\",\r\n  \"Provider\": \"1G\",\r\n  \"PNRNO\": \"0GNQJN\",\r\n  \"TicketNo\": \"\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ibe.itq.in/B2BAPI/Api/flight/Non-LccFareRule"
+			},
+			"response": []
+		},
+		{
+			"name": "3. Pricing",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"SessionID\": \"1EB4ABDE-BB8B-4598-8819-4FC5FE87FC5D\",\r\n    \"Key\": \"cbabc8bc-b66c-4cb6-97e2-7989ca1b5292\",\r\n    \"Pricingkey\": \"211EconomyEY0-Stop202112262021122604000630NRMFalseFalse218EconomyEY0-Stop202112292021123021400230NRMFalseFalse\",\r\n    \"Provider\": \"1G\",\r\n    \"ResultIndex\": \"2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ibe.itq.in/B2BAPI/Api/flight/Pricing"
+			},
+			"response": []
+		},
+		{
+			"name": "5. Add PAX Info",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"SessionID\": \"1EB4ABDE-BB8B-4598-8819-4FC5FE87FC5D\",\r\n    \"Key\": \"cbabc8bc-b66c-4cb6-97e2-7989ca1b5292\",\r\n    \"ReferenceNo\": \"TBF6618\",\r\n    \"CustomerInfo\": {\r\n        \"Email\": \"kanika.madaan@itq.in\",\r\n        \"Mobile\": \"8826398451\",\r\n        \"Address\": \"ITQ Guragon\",\r\n        \"City\": \"Guragon\",\r\n        \"State\": \"Haryana\",\r\n        \"CountryCode\": \"IN\",\r\n        \"CountryName\": \"India\",\r\n        \"ZipCode\": \"122018\",\r\n        \"PassengerDetails\": [\r\n            {\r\n                \"Title\": \" MS\",\r\n                \"Gender\": \"Female\",\r\n                \"FirstName\": \"Kirpa\",\r\n                \"MiddleName\": \"Kaur\",\r\n                \"LastName\": \"Maan\",\r\n                \"DateOfBirth\": \"02/07/1996\",\r\n                \"PaxType\": \"ADT\",\r\n                \"PassportNumber\": \"136889D4\",\r\n                \"IssuingCountry\": \"IN\",\r\n                \"Nationality\": \"IN\",\r\n                \"ExpiryDate\": \"13/08/2027\"\r\n            }\r\n        ],\r\n        \"PassengerTicketDetails\": [],\r\n        \"Payment\": {}\r\n    },\r\n    \"SSRInfo\": []\r\n     ,\r\n    \"TotalAmount\": \"0\",\r\n    \"SSRAmount\": 0,\r\n    \"Discount\": 0,\r\n    \"GrandTotalFare\": \"0\",\r\n    \"IsGSTProvided\": true,\r\n    \"GstDetails\": {\r\n        \"GSTNumber\": \"27ANPPS0725G1ZR\",\r\n        \"Name\": \"Itq test gst\",\r\n        \"Email\": \"sales@emproit.com\",\r\n        \"Address\": \"ABC Road\",\r\n        \"City\": \"Gurugram\",\r\n        \"Pincode\": \"122001\",\r\n        \"State\": \"Haryana\",\r\n        \"ContactNo\": \"9930656626\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ibe.itq.in/B2BAPI/Api/flight/AddPassengerDetails"
+			},
+			"response": []
+		},
+		{
+			"name": "6. Booking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"SessionID\": \"1EB4ABDE-BB8B-4598-8819-4FC5FE87FC5D\",\r\n    \"Key\": \"cbabc8bc-b66c-4cb6-97e2-7989ca1b5292\",\r\n    \"ReferenceNo\": \"TBF6618\",\r\n    \"Provider\":\"1G\"\r\n}\r\n\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ibe.itq.in/B2BAPI/Api/flight/Booking"
+			},
+			"response": []
+		},
+		{
+			"name": "7. Ticket",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"SessionID\": \"1EB4ABDE-BB8B-4598-8819-4FC5FE87FC5D\",\r\n    \"Key\": \"cbabc8bc-b66c-4cb6-97e2-7989ca1b5292\",\r\n    \"ReferenceNo\": \"TBF6618\",\r\n    \"Provider\": \"1G\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ibe.itq.in/B2BAPI/Api/flight/Ticket"
+			},
+			"response": []
+		},
+		{
+			"name": "8. CancelBooking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"SessionID\": \"1EB4ABDE-BB8B-4598-8819-4FC5FE87FC5D\",\r\n    \"ReferenceNo\": \"TBF6618\",\r\n    \"CancellationRemarks\": \"Test Booking\",\r\n    \"ClientCode\":\"MakeTrueTrip\"\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ibe.itq.in/B2BAPI/Api/flight/CancelBooking"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Booking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n       \"SessionID\": \"E01161DA-B61E-411B-9E0A-B83424487BC1\",\r\n    \"Key\": \"44637892-a26e-4325-9ab6-e98181628f64\",\r\n    \"ReferenceNo\": \"TBF4655\",\r\n  \"PnrNo\": \"\",\r\n  \"Provider\": \"1G\",\r\n  \"FirstName\": \"\",\r\n  \"LastName\": \"\",\r\n  \"From\": \"\",\r\n  \"To\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://ibe.itq.in/B2BAPI/Api/flight/GetBookingDetails"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

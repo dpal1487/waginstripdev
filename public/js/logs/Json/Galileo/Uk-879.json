@@ -1,0 +1,4 @@
+// https://
+www.makemytrip.com/flight/search?itinerary=CCU-JAI-16/02/2022&tripType=O&paxType=A-1_C-0_I-0&intl=false&cabinClass=E&ccde=IN&lang=eng
+// http://
+127.0.0.1:8000/oneway-flight-search?trip-type=oneway&departure=DEL&arrival=CCU&departDate=22+Jan+2022+&returnDate=22+Jan+2022+&noOfAdults=1&noOfChilds=0&noOfInfants=0&cabinClass=p

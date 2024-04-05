@@ -1,0 +1,1984 @@
+.wedding-logo {
+    height: 70px;
+    width: 100px;
+}
+
+.card-small {
+    height: 500px;
+    width: 80vw;
+    background-color: transparent;
+    margin: auto;
+}
+
+.card2-small {
+    height: 500px;
+    width: 35vw;
+    background-color: white;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.backgroundstyle1 {
+    margin-bottom: -35px;
+}
+
+
+.small-image {
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+
+
+.small-image2 {
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+
+
+.card2-small h1 {
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+}
+
+.card2-button {
+    margin-right: 230px;
+    background-color: rgb(96, 135, 207);
+    color: black;
+    height: 50px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.card3-button {
+    background-color: rgb(142, 158, 186);
+    color: black;
+    height: 50px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.card4-small {
+    background-image: url('/images/images.jfif');
+    height: 500px;
+    width: 32vw;
+    background-size: cover;
+    margin-right: 320px;
+}
+
+.caraousel-card {
+    background-color: rgb(166, 191, 183);
+    width: 100vw;
+    height: 30vh;
+    margin-top: 25px;
+}
+
+.carasoul-1 {
+    margin-top: 20px;
+}
+
+.caraousel.image1 {
+    width: 30px;
+}
+
+.caraousel-image2 {
+    width: 290px;
+    height: 23vh;
+}
+
+.carasoul-2 {
+    margin-top: 20px;
+}
+
+.caraousel-2-image1 {
+    width: 30px;
+}
+
+.caraousel-image2 {
+    width: 290px;
+    height: 23vh;
+}
+
+.heading-2 {
+    padding: 0%;
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #a3888c;
+    font-size: 45px;
+    margin-top: -30px;
+}
+.card-container {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 50px;
+    padding: 30px;
+}
+.succes-wedding-card {
+    margin-top: 60px;
+}
+
+.heading-3 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(92, 88, 88);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para-1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #848892;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.small-heading {
+    color: #a3888c;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.small-heading-2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.image-class-1 {
+    margin-top: 10px;
+}
+
+.image-class-2 {
+    height: 500px;
+}
+
+.para-3 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: 'Gill Sans';
+    margin-top: -5px;
+}
+
+.fa-phone {
+    margin-left: 60px;
+}
+
+.comment-1 {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.pricing-image {
+    background-image: url('/images/last-container.jfif');
+    height: 40vh;
+    background-size: cover;
+}
+
+.para-new {
+    text-align: center;
+    line-height: 35px;
+}
+
+.para-span {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.para-last {
+    text-align: center;
+    padding-left: 5px;
+}
+
+.card-container-2 {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 250px;
+    padding: 30px;
+}
+
+
+.para-4 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: 'Gill Sans';
+    margin-top: -5px;
+}
+
+.heading-24 {
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #a3888c;
+    font-size: 45px;
+    margin-top: -30px;
+
+}
+
+.para-54 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.small-image8 {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    margin-top: 40px;
+}
+
+.pricing-plan-cont {
+    margin-top: -50px;
+}
+
+.button-send-message {
+    width: 150px !important;
+    text-align: center !important;
+    margin: auto;
+    background-color: #a3888c !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.form-heading {
+    color: #a3888c !important;
+}
+
+.top-container {
+    margin: 0px;
+}
+
+.last-para {
+    margin-left: -7px;
+}
+
+.back-image {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/events/eventplanning.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.head-4 {
+    font-family: 'Libre Franklin', 'Arial';
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.head-2 {
+    color: #fff;
+    text-align: center;
+    font-size: 65px;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.para-0 {
+    font-family: 'Libre Franklin', 'Arial';
+    color: #fff;
+    font-size: 20px;
+    text-shadow: none;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-align: center;
+}
+
+.card-center {
+    margin: auto;
+
+}
+
+
+
+.head-421 {
+    color: rgb(177, 116, 116);
+    font-family: Rockwell;
+    font-size: 34px;
+    font-weight: 500;
+    text-align: center !important;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+
+.head-422 {
+    color: rgb(177, 116, 116);
+    font-family: Rockwell;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center !important;
+    padding-top: 30px;
+    margin: auto;
+}
+
+
+
+ul li {
+    color: rgb(177, 116, 116);
+    text-transform: capitalize;
+    font-size: 26px;
+
+
+}
+
+.container-first {
+    padding-top: 90px;
+}
+
+.container-first2 {
+    padding-top: 60px;
+}
+
+.card .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background-color: #000000a1 !important;
+    cursor: pointer;
+}
+
+.overlay h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 130px;
+    color: #fff;
+}
+
+.back2:hover .overlay {
+    opacity: 1;
+}
+
+.back1 .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background-color: #000000ab !important;
+    cursor: pointer;
+}
+
+.back1:hover .overlay2 {
+    opacity: 1;
+}
+
+.overlay2 h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 130px;
+    color: #fff;
+}
+
+/* Corporate */
+
+.wedding-logo {
+    height: 70px;
+    width: 100px;
+}
+
+
+.backgroundstyle {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(81, 115, 179)) !important;
+}
+
+.card-small {
+    height: 500px;
+    width: 80vw;
+    background-color: transparent;
+    margin: auto;
+}
+
+.card2-small {
+    height: 500px;
+    width: 35vw;
+    background-color: white;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.small-image {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+
+
+.small-image2 {
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+    border-color: black;
+    shape-outside: 5px;
+}
+
+
+
+.card2-small h1 {
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+}
+
+.card2-button {
+    margin-right: 230px;
+    background-color: rgb(96, 135, 207);
+    color: black;
+    height: 50px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.card3-button {
+    background-color: rgb(142, 158, 186);
+    color: black;
+    height: 50px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.card4-small {
+    background-image: url('/images/images.jfif');
+    height: 500px;
+    width: 32vw;
+    background-size: cover;
+    margin-right: 320px;
+}
+
+.caraousel-card {
+    background-color: rgb(166, 191, 183);
+    width: 100vw;
+    height: 30vh;
+    margin-top: 25px;
+}
+
+.carasoul-1 {
+    margin-top: 20px;
+}
+
+.caraousel.image1 {
+    width: 30px;
+}
+
+.caraousel-image2 {
+    width: 290px;
+    height: 23vh;
+}
+
+.carasoul-2 {
+    margin-top: 20px;
+}
+
+.caraousel-2-image1 {
+    width: 30px;
+}
+
+.caraousel-image2 {
+    width: 290px;
+    height: 23vh;
+}
+
+.heading-2 {
+    padding: 0%;
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #a3888c;
+    font-size: 45px;
+    margin-top: -30px;
+}
+
+
+.heading-22 {
+    padding: 0%;
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #fffafb !important;
+    font-size: 45px;
+    margin-top: -30px;
+}
+
+
+.heading-23 {
+    padding: 0%;
+    text-align: center;
+    font-family: "Gilda Display", serif !important;
+    font-weight: 500;
+    color: #181818 !important;
+    font-size: 45px;
+    margin-top: -30px;
+
+}
+
+.para23 {
+    color: #000000 !important;
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px !important;
+}
+
+
+
+
+.card-container {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.succes-wedding-card {
+    margin-top: 60px;
+}
+
+.heading-3 {
+
+    margin-top: 10px;
+    color: rgb(66, 50, 33);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para-1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #848892;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.small-heading {
+    color: #a3888c;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.small-heading-2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.image-class-1 {
+    margin-top: 10px;
+}
+
+.image-class-2 {
+    height: 500px;
+}
+
+.para-3 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: 'Gill Sans';
+    margin-top: -5px;
+}
+
+.fa-phone {
+    margin-left: 60px;
+}
+
+.comment-1 {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.pricing-image {
+    background-image: url('/images/last-container.jfif');
+    height: 40vh;
+    background-size: cover;
+}
+
+.para-new {
+    text-align: center;
+    line-height: 35px;
+}
+
+.para-span {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.para-last {
+    text-align: center;
+    padding-left: 5px;
+}
+
+.card-container-2 {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 250px;
+    padding: 30px;
+}
+
+
+.para-4 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: 'Gill Sans';
+    margin-top: -5px;
+}
+
+.heading-24 {
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #a3888c;
+    font-size: 45px;
+    margin-top: -30px;
+
+}
+
+.para-54 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.small-image8 {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    margin-top: 40px;
+}
+
+.pricing-plan-cont {
+    margin-top: -50px;
+}
+
+.button-send-message {
+    width: 150px !important;
+    text-align: center;
+    margin: auto;
+    background-color: #a3888c !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.form-heading {
+    color: #a3888c !important;
+}
+
+.top-container {
+    margin: 0px;
+}
+
+.last-para {
+    margin-left: -7px;
+}
+
+/* Wedding */
+.wedding-logo {
+    height: 70px;
+    width: 100px;
+}
+
+.card-small {
+    height: 500px;
+    width: 80vw;
+    background-color: transparent;
+    margin: auto;
+}
+
+.card2-small {
+    height: 500px;
+    width: 35vw;
+    background-color: white;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.small-image {
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+
+
+.small-image2 {
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.card2-small h1 {
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+}
+
+.card2-button {
+    margin-right: 230px;
+    background-color: rgb(96, 135, 207);
+    color: black;
+    height: 50px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.card3-button {
+    background-color: rgb(142, 158, 186);
+    color: black;
+    height: 50px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.card4-small {
+    background-image: url('/images/images.jfif');
+    height: 500px;
+    width: 32vw;
+    background-size: cover;
+    margin-right: 320px;
+}
+
+.caraousel-card {
+    background-color: rgb(166, 191, 183);
+    width: 100vw;
+    height: 30vh;
+    margin-top: 25px;
+}
+
+.carasoul-1 {
+    margin-top: 20px;
+}
+
+.caraousel.image1 {
+    width: 30px;
+}
+
+.caraousel-image2 {
+    width: 290px;
+    height: 23vh;
+}
+
+.carasoul-2 {
+    margin-top: 20px;
+}
+
+.caraousel-2-image1 {
+    width: 30px;
+}
+
+.caraousel-image2 {
+    width: 290px;
+    height: 23vh;
+}
+
+.heading-2 {
+    padding: 0%;
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #a3888c;
+    font-size: 45px;
+    margin-top: -30px;
+}
+
+.card-container {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.succes-wedding-card {
+    margin-top: 60px;
+}
+
+.heading-3 {
+
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para-1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #848892;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.small-heading {
+    color: #a3888c;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.small-heading-2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.image-class-1 {
+    margin-top: 10px;
+}
+
+.image-class-2 {
+    height: 500px;
+}
+
+.para-3 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: 'Gill Sans';
+    margin-top: -5px;
+}
+
+.fa-phone {
+    margin-left: 60px;
+}
+
+.comment-1 {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.pricing-image {
+    background-image: url('/images/last-container.jfif');
+    height: 40vh;
+    background-size: cover;
+}
+
+.para-new {
+    text-align: center;
+    line-height: 35px;
+    font-family: playfair;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.para-span {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.para-last {
+    text-align: center;
+    padding-left: 5px;
+}
+
+.card-container-2 {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 250px;
+    padding: 30px;
+}
+
+
+.para-4 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: 'Gill Sans';
+    margin-top: -5px;
+}
+
+.heading-24 {
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #a3888c;
+    font-size: 45px;
+    margin-top: -30px;
+
+}
+
+.para-54 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+
+.para24 {
+    color: #292929 !important;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px !important;
+}
+
+.small-image8 {
+    height: 200px !important;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px;
+
+}
+
+.pricing-plan-cont {
+    margin-top: -50px;
+}
+
+.button-send-message {
+    width: 150px !important;
+    text-align: center;
+    margin: auto;
+    background-color: #a3888c !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.form-heading {
+    color: #a3888c !important;
+}
+
+.top-container {
+    margin: 0px;
+}
+
+.last-para {
+    margin-left: -7px;
+}
+
+/* School */
+
+.wedding-logo {
+    height: 70px;
+    width: 100px;
+}
+
+.card-small {
+    height: 500px;
+    width: 80vw;
+    background-color: transparent;
+    margin: auto;
+}
+
+.card2-small {
+    height: 500px;
+    width: 35vw;
+    background-color: white;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.small-image {
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+
+
+.small-image2 {
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.card2-small h1 {
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+}
+
+.card2-button {
+    margin-right: 230px;
+    background-color: rgb(96, 135, 207);
+    color: black;
+    height: 50px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.card3-button {
+    background-color: rgb(142, 158, 186);
+    color: black;
+    height: 50px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.card4-small {
+    background-image: url('/images/images.jfif');
+    height: 500px;
+    width: 32vw;
+    background-size: cover;
+    margin-right: 320px;
+}
+
+.caraousel-card {
+    background-color: rgb(166, 191, 183);
+    width: 100vw;
+    height: 30vh;
+    margin-top: 25px;
+}
+
+.carasoul-1 {
+    margin-top: 20px;
+}
+
+.caraousel.image1 {
+    width: 30px;
+}
+
+.caraousel-image2 {
+    width: 290px;
+    height: 23vh;
+}
+
+.carasoul-2 {
+    margin-top: 20px;
+}
+
+.caraousel-2-image1 {
+    width: 30px;
+}
+
+.caraousel-image2 {
+    width: 290px;
+    height: 23vh;
+}
+
+.heading-2 {
+    padding: 0%;
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #a3888c;
+    font-size: 45px;
+    margin-top: -30px;
+}
+
+.card-container {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.succes-wedding-card {
+    margin-top: 60px;
+}
+
+.heading-3 {
+
+    margin-top: 10px;
+    color: rgb(66, 50, 33);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para-1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #848892;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.small-heading {
+    color: #a3888c;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.small-heading-2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.image-class-1 {
+    margin-top: 10px;
+}
+
+.image-class-2 {
+    height: 500px;
+}
+
+.para-3 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: 'Gill Sans';
+    margin-top: -5px;
+}
+
+.fa-phone {
+    margin-left: 60px;
+}
+
+.comment-1 {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.pricing-image {
+    background-image: url('/images/last-container.jfif');
+    height: 40vh;
+    background-size: cover;
+}
+
+.para-new {
+    text-align: center;
+    line-height: 35px;
+}
+
+.para-span {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.para-last {
+    text-align: center;
+    padding-left: 5px;
+}
+
+.card-container-2 {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 250px;
+    padding: 30px;
+}
+
+
+.para-4 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: 'Gill Sans';
+    margin-top: -5px;
+}
+
+.heading-24 {
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #a3888c;
+    font-size: 45px;
+    margin-top: -30px;
+
+}
+
+.para-54 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.small-image8 {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    margin-top: 40px;
+}
+
+.pricing-plan-cont {
+    margin-top: -50px;
+}
+
+.button-send-message {
+    width: 150px !important;
+    text-align: center;
+    margin: auto;
+    background-color: #a3888c !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.form-heading {
+    color: #a3888c !important;
+}
+
+.top-container {
+    margin: 0px;
+}
+
+.last-para {
+    margin-left: -7px;
+}
+
+
+
+.para26 {
+    color: #444444 !important;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px !important;
+}
+
+
+.heading-25 {
+    padding: 0%;
+    text-align: center;
+    font-family: "Gilda Display", serif !important;
+    font-weight: 500;
+    font-size: 35px;
+
+}
+
+/* College */
+
+
+.para-098 {
+    font-size: 14px;
+    color: black;
+    padding-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.wedding-logo {
+    height: 70px;
+    width: 100px;
+}
+
+.card-small {
+    height: 500px;
+    width: 80vw;
+    background-color: transparent;
+    margin: auto;
+}
+
+.card2-small {
+    height: 500px;
+    width: 35vw;
+    background-color: white;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.small-image {
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+
+
+.small-image2 {
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.card2-small h1 {
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+}
+
+.card2-button {
+    margin-right: 230px;
+    background-color: rgb(96, 135, 207);
+    color: black;
+    height: 50px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.card3-button {
+    background-color: rgb(142, 158, 186);
+    color: black;
+    height: 50px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.card4-small {
+    background-image: url('/images/images.jfif');
+    height: 500px;
+    width: 32vw;
+    background-size: cover;
+    margin-right: 320px;
+}
+
+.caraousel-card {
+    background-color: rgb(166, 191, 183);
+    width: 100vw;
+    height: 30vh;
+    margin-top: 25px;
+}
+
+.carasoul-1 {
+    margin-top: 20px;
+}
+
+.caraousel.image1 {
+    width: 30px;
+}
+
+.caraousel-image2 {
+    width: 290px;
+    height: 23vh;
+}
+
+.carasoul-2 {
+    margin-top: 20px;
+}
+
+.caraousel-2-image1 {
+    width: 30px;
+}
+
+.caraousel-image2 {
+    width: 290px;
+    height: 23vh;
+}
+
+.heading-2 {
+    padding: 0%;
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #a3888c;
+    font-size: 45px;
+    margin-top: -30px;
+}
+
+.card-container {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.succes-wedding-card {
+    margin-top: 60px;
+}
+
+.heading-3 {
+
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para-1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #848892;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.small-heading {
+    color: #a3888c;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.small-heading-2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.image-class-1 {
+    margin-top: 10px;
+}
+
+.image-class-2 {
+    height: 500px;
+}
+
+.para-3 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: 'Gill Sans';
+    margin-top: -5px;
+}
+
+.fa-phone {
+    margin-left: 60px;
+}
+
+.comment-1 {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.pricing-image {
+    background-image: url('/images/last-container.jfif');
+    height: 40vh;
+    background-size: cover;
+}
+
+.para-new {
+    text-align: center;
+    line-height: 35px;
+}
+
+.para-span {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.para-last {
+    text-align: center;
+    padding-left: 5px;
+}
+
+.card-container-2 {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 250px;
+    padding: 30px;
+}
+
+.para-4 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: 'Gill Sans';
+    margin-top: -5px;
+}
+
+.heading-24 {
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #a3888c;
+    font-size: 45px;
+    margin-top: -30px;
+
+}
+
+.para-54 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.small-image8 {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    margin-top: 40px;
+}
+
+.pricing-plan-cont {
+    margin-top: -50px;
+}
+
+.button-send-message {
+    width: 150px !important;
+    text-align: center;
+    margin: auto;
+    background-color: #a3888c !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.form-heading {
+    color: #a3888c !important;
+}
+
+.top-container {
+    margin: 0px;
+}
+
+.last-para {
+    margin-left: -7px;
+}
+
+/* Sport */
+
+.para-098 {
+    font-size: 14px;
+    color: black;
+    padding-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.wedding-logo {
+    height: 70px;
+    width: 100px;
+}
+
+.card-small {
+    height: 500px;
+    width: 80vw;
+    background-color: transparent;
+    margin: auto;
+}
+
+.card2-small {
+    height: 500px;
+    width: 35vw;
+    background-color: white;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.small-image {
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+
+
+.small-image2 {
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.card2-small h1 {
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+}
+
+.card2-button {
+    margin-right: 230px;
+    background-color: rgb(96, 135, 207);
+    color: black;
+    height: 50px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.card3-button {
+    background-color: rgb(142, 158, 186);
+    color: black;
+    height: 50px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.card4-small {
+    background-image: url('/images/images.jfif');
+    height: 500px;
+    width: 32vw;
+    background-size: cover;
+    margin-right: 320px;
+}
+
+.caraousel-card {
+    background-color: rgb(166, 191, 183);
+    width: 100vw;
+    height: 30vh;
+    margin-top: 25px;
+}
+
+.carasoul-1 {
+    margin-top: 20px;
+}
+
+.caraousel.image1 {
+    width: 30px;
+}
+
+.caraousel-image2 {
+    width: 290px;
+    height: 23vh;
+}
+
+.carasoul-2 {
+    margin-top: 20px;
+}
+
+.caraousel-2-image1 {
+    width: 30px;
+}
+
+.caraousel-image2 {
+    width: 290px;
+    height: 23vh;
+}
+
+.heading-2 {
+    padding: 0%;
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #a3888c;
+    font-size: 45px;
+    margin-top: -30px;
+}
+
+.card-container {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.succes-wedding-card {
+    margin-top: 60px;
+}
+
+.heading-3 {
+
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para-1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #848892;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.small-heading {
+    color: #a3888c;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.small-heading-2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.image-class-1 {
+    margin-top: 10px;
+}
+
+.image-class-2 {
+    height: 500px;
+}
+
+.para-3 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: 'Gill Sans';
+    margin-top: -5px;
+}
+
+.fa-phone {
+    margin-left: 60px;
+}
+
+.comment-1 {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.pricing-image {
+    background-image: url('/images/last-container.jfif');
+    height: 40vh;
+    background-size: cover;
+}
+
+.para-new {
+    text-align: center;
+    line-height: 35px;
+}
+
+.para-span {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.para-last {
+    text-align: center;
+    padding-left: 5px;
+}
+
+.card-container-2 {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 250px;
+    padding: 30px;
+}
+
+.para-4 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(192, 168, 139);
+    font-family: 'Gill Sans';
+    margin-top: -5px;
+}
+
+.heading-24 {
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    font-weight: 500;
+    color: #a3888c;
+    font-size: 45px;
+    margin-top: -30px;
+
+}
+
+.para-54 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.small-image8 {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    margin-top: 40px;
+}
+
+.pricing-plan-cont {
+    margin-top: -50px;
+}
+
+.button-send-message {
+    width: 150px !important;
+    text-align: center;
+    margin: auto;
+    background-color: #a3888c !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.form-heading {
+    color: #a3888c !important;
+}
+
+.top-container {
+    margin: 0px;
+}
+
+.last-para {
+    margin-left: -7px;
+}
+
+.back-image56 {
+    background-image: url(../images/events/cpevent.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+.back-image h3 {
+    color: #ffffff;
+    position: relative;
+    font-family: "Alex Brush", cursive !important;
+    text-transform: capitalize !important;
+    font-size: 60px !important;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.head-1 {
+    text-align: center;
+    font-family: "Alex Brush", cursive !important;
+    text-transform: capitalize !important;
+    font-size: 45px !important;
+    font-weight: 600;
+    padding-top: 150px;
+    color: #fff;
+}
+
+.head-3 {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.42857;
+    color: #333333;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.para-1 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.back-image65 {
+    width: 100%;
+    background-image: url(../images/events/prdct56.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back-image69 {
+    background-image: url(../images/events/sem1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-size: cover;
+    animation: zoom-in-zoom-out 30s ease-out infinite;
+
+}
+
+.back-image70 {
+    background-image: url(../images/events/party1\ \(1\).jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.back-image71 {
+    background-image: url(../images/events/evnt123.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.back-image73 {
+    background-image: url(../images/events/cake2.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.back-image74 {
+    background-image: url(../images/events/floraldesign.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.back-image75 {
+    background-image: url(../images/events/photo.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.back-image76 {
+    background-image: url(../images/events/image1\ \(2\).jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.back-image77 {
+    background-image: url(../images/events/./cvtlp.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.back-image78 {
+    background-image: url(../images/events/img2.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.back-image79 {
+    background-image: url(../images/events/quiz1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+
+.photography_sections li {
+    font-size: 16px !important;
+    color: black !important;
+}
+
+
+
+/* pop-up-form */
+
+/* .popup{
+    background-color: #ffffff;
+    width: 200px;
+    padding: 10px 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none; 
+    text-align: center;
+    height: 300px;
+  
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    background: #03549a;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+} */
+
+
+.heading-216{
+    font-size: 15px;
+    padding: 0%;
+    text-align: center;
+    font-family: "Gilda Display", serif;
+    color: #a3888c;
+    line-height: 1px;
+}
+  

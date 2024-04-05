@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    gap: 50px;
+}
+
+.grid-three-column {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contain {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.contain h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.card-1 {
+    padding: 20px 0px;
+}
+
+.card-2 {
+    padding: 20px 0px;
+}
+
+.Agra,
+.Cambodia,
+.Egypt,
+.Greece,
+.RedFort,
+.Romania {
+    box-shadow: 0 10px 20px rgb(40 40 40);
+}
+
+.Agra img,
+.Cambodia img,
+.Egypt img,
+.Greece img,
+.RedFort img,
+.Romania img {
+    width: 100%;
+}
+
+.Agra .overlay,
+.Cambodia .overlay,
+.Egypt .overlay,
+.Greece .overlay,
+.RedFort .overlay,
+.Romania .overlay {
+    padding: 10px;
+}
+
+.Agra .overlay a,
+.Cambodia .overlay a,
+.Egypt .overlay a,
+.Greece .overlay a,
+.RedFort .overlay a,
+.Romania .overlay a {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+}

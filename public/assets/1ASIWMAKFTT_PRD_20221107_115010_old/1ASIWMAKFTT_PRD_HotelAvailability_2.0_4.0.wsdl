@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created with WSDLGenerator 2.0.0 by Amadeus SAS-->
+<!--  Amadeus Proprietary and Confidential Information: unauthorized use and disclosure strictly forbidden. 2015 - Amadeus s.a.s - All Rights Reserved.  -->
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:amasec="http://xml.amadeus.com/2010/06/Security_v1" xmlns:awsl="http://wsdl.amadeus.com/2010/06/ws/Link_v1" xmlns:awsse="http://xml.amadeus.com/2010/06/Session_v3" xmlns:int="http://wsdl.amadeus.com/HotelAvailability_v2" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://wsdl.amadeus.com/HotelAvailability_v2_v4" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://wsdl.amadeus.com/HotelAvailability_v2_v4" name="FTTMAK_HotelAvailability_2.0_4.0">
+  <wsdl:documentation>Versions: [interface: 2.0 ; technical: 4.0]</wsdl:documentation>
+  <wsp:Policy wsu:Id="MessagingPolicy">
+    <wsam:Addressing wsp:Optional="true">
+      <wsp:Policy>
+        <wsam:AnonymousResponses />
+      </wsp:Policy>
+    </wsam:Addressing>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="AmadeusPolicy">
+    <wsp:PolicyReference URI="#MessagingPolicy" />
+  </wsp:Policy>
+  <wsdl:import namespace="http://wsdl.amadeus.com/HotelAvailability_v2" location="HotelAvailability_2.0.wsdl" />
+  <wsdl:types>
+    <xs:schema>
+      <xs:import schemaLocation="AMA/2012B/AMA_WS_Session.xsd" namespace="http://xml.amadeus.com/2010/06/Session_v3" />
+      <xs:import schemaLocation="AMA_WSLink.xsd" namespace="http://wsdl.amadeus.com/2010/06/ws/Link_v1" />
+      <xs:import schemaLocation="AMA/2012B/AMA_SecurityHostedUser.xsd" namespace="http://xml.amadeus.com/2010/06/Security_v1" />
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="Session_3.000">
+    <wsdl:part name="session" element="awsse:Session" />
+  </wsdl:message>
+  <wsdl:message name="TransactionFlowLink_1.0">
+    <wsdl:part name="link" element="awsl:TransactionFlowLink" />
+  </wsdl:message>
+  <wsdl:message name="AMA_SecurityHostedUser_1.000">
+    <wsdl:part name="security" element="amasec:AMA_SecurityHostedUser" />
+  </wsdl:message>
+  <wsdl:binding name="HotelAvailability_Binding" type="int:HotelAvailability_PT">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Hotel_EnhancedPricing">
+      <soap:operation soapAction="http://webservices.amadeus.com/Hotel_EnhancedPricing_2.0" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:Session_3.000" part="session" use="literal" />
+        <soap:header message="tns:TransactionFlowLink_1.0" part="link" use="literal" />
+        <soap:header message="tns:AMA_SecurityHostedUser_1.000" part="security" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:Session_3.000" part="session" use="literal" />
+        <soap:header message="tns:TransactionFlowLink_1.0" part="link" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Hotel_EnhancedSingleAvail">
+      <soap:operation soapAction="http://webservices.amadeus.com/Hotel_EnhancedSingleAvail_2.0" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:Session_3.000" part="session" use="literal" />
+        <soap:header message="tns:TransactionFlowLink_1.0" part="link" use="literal" />
+        <soap:header message="tns:AMA_SecurityHostedUser_1.000" part="security" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:Session_3.000" part="session" use="literal" />
+        <soap:header message="tns:TransactionFlowLink_1.0" part="link" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Hotel_MultiAvailability">
+      <soap:operation soapAction="http://webservices.amadeus.com/Hotel_MultiAvailability_10.0" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:Session_3.000" part="session" use="literal" />
+        <soap:header message="tns:TransactionFlowLink_1.0" part="link" use="literal" />
+        <soap:header message="tns:AMA_SecurityHostedUser_1.000" part="security" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:Session_3.000" part="session" use="literal" />
+        <soap:header message="tns:TransactionFlowLink_1.0" part="link" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Hotel_MultiSingleAvailability">
+      <soap:operation soapAction="http://webservices.amadeus.com/Hotel_MultiSingleAvailability_10.0" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:Session_3.000" part="session" use="literal" />
+        <soap:header message="tns:TransactionFlowLink_1.0" part="link" use="literal" />
+        <soap:header message="tns:AMA_SecurityHostedUser_1.000" part="security" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:Session_3.000" part="session" use="literal" />
+        <soap:header message="tns:TransactionFlowLink_1.0" part="link" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HotelAvailability_Service">
+    <wsdl:port binding="tns:HotelAvailability_Binding" name="HotelAvailability_Port">
+      <wsp:PolicyReference URI="#AmadeusPolicy" />
+      <soap:address location="https://nodeD1.production.webservices.amadeus.com/1ASIWMAKFTT" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
+<!--1F8B08000000000000006D8EC10AC2301044EFFD8A3D2AD2B22988905B51A8A20541C1F35A57584CD290AE85FEBD41AF1EE634BC37D372E0442A430015CFA3928F166AACEBD2981237D00DE141331863D7680D42DB5D578816B1B85D7627687FFC9060E234664D862BACB0D83AE1A040313AE9BF03163CBD58D33B47222CBAE6B8CC92E60C813C5BD80FCAAE99481CDDC589CEC52128A727F5FFCAFCF103AD863AE7BC000000-->

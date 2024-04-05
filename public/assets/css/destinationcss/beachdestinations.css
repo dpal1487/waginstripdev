@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    gap: 50px;
+}
+
+.grid-three-column {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contain {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.contain h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.card-1 {
+    padding: 20px 0px;
+}
+
+.card-2 {
+    padding: 20px 0px;
+}
+
+.australia,
+.goa,
+.hawaii,
+.maldives,
+.philippines,
+.thailand {
+    box-shadow: 0 10px 20px rgb(40 40 40);
+}
+
+.australia img,
+.goa img,
+.hawaii img,
+.maldives img,
+.philippines img,
+.thailand img {
+    width: 100%;
+}
+
+.australia .overlay,
+.goa .overlay,
+.hawaii .overlay,
+.maldives .overlay,
+.philippines .overlay,
+.thailand .overlay {
+   
+}
+
+.australia .overlay a,
+.goa .overlay a,
+.hawaii .overlay a,
+.maldives .overlay a,
+.philippines .overlay a,
+.thailand .overlay a {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+}
+.overlay.heading_40 a {
+    font-size: 20px;
+     font-family: cursive;
+   background: #fff;
+   
+}

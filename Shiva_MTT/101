@@ -1,0 +1,99 @@
+{
+	"Request_Of_addpassengerdetails": {
+		"SessionID": "2194DF9D-D3B5-47A7-A24A-B21ECC4DFF7D",
+		"Key": "3cb95aa0-8794-4666-a4d9-9c0bcb34a322",
+		"ReferenceNo": "TBF10356",
+		"CustomerInfo": {
+			"Email": "xyz@gmail.com",
+			"Mobile": "9839201133",
+			"Address": "5b 13 Street No 1 Subhash Nagar Metro Gate No 1",
+			"City": "Delhi",
+			"State": "Delhi",
+			"CountryCode": "IN",
+			"CountryName": "India",
+			"ZipCode": "110018",
+			"PassengerDetails": [
+				{
+					"Title": [
+						"Mr"
+					],
+					"Gender": null,
+					"FirstName": "xyz",
+					"MiddleName": "",
+					"LastName": "xyz",
+					"DateOfBirth": "",
+					"PaxType": "ADT",
+					"PassportNumber": "",
+					"Nationality": "",
+					"IssuingCountry": "",
+					"ExpiryDate": "",
+					  "MealCode": "AVML",
+                     "MealType": "MEAL"
+					
+				}
+			],
+			"PassengerTicketDetails": [],
+			"Payment": {}
+		},
+		"SSRInfo": [],
+		"TotalAmount": "0",
+		"SSRAmount": 0,
+		"Discount": 0,
+		"GrandTotalFare": "0",
+		"IsGSTProvided": false
+	},
+
+
+
+
+	{
+     "SessionID": "46378407-ED9D-449D-AB9D-E44CC8D120D4",
+    "Key": "9f7bb3f9-e87b-4255-9b2b-23a73c0bafa5",
+    "ReferenceNo": "TBF10419",
+    "CustomerInfo": {
+        "Email": "kanika.madaan@itq.in",
+        "Mobile": "8826398451",
+        "Address": "ITQ Guragon",
+        "City": "Guragon",
+        "State": "Haryana",
+        "CountryCode": "IN",
+        "CountryName": "India",
+        "ZipCode": "122018",
+        "PassengerDetails": [
+            {
+                "Title": " MS",
+                "Gender": "Female",
+                "FirstName": "Kirpa",
+                "MiddleName": "Kaur",
+                "LastName": "Maan",
+                "DateOfBirth": "02/07/1996",
+                "PaxType": "ADT",
+                "PassportNumber": "136889D4",
+                "IssuingCountry": "IN",
+                "Nationality": "IN",
+                "ExpiryDate": "13/08/2027",
+                "MealCode": "AVML",
+                "MealType": "MEAL"
+            }
+        ],
+        "PassengerTicketDetails": [],
+        "Payment": {}
+    },
+    "SSRInfo": []
+     ,
+    "TotalAmount": "0",
+    "SSRAmount": 0,
+    "Discount": 0,
+    "GrandTotalFare": "0",
+    "IsGSTProvided": true,
+    "GstDetails": {
+        "GSTNumber": "27ANPPS0725G1ZR",
+        "Name": "Itq test gst",
+        "Email": "sales@emproit.com",
+        "Address": "ABC Road",
+        "City": "Gurugram",
+        "Pincode": "122001",
+        "State": "Haryana",
+        "ContactNo": "9930656626"
+    }
+}n

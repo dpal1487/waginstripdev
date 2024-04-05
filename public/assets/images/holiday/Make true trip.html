@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>XYZ </title>
+    <link rel="shortcut icon" type="image/x-icon" href="http://127.0.0.1:8000/assets/images/logo/favicon.png">
+    <script src="Make%20true%20trip_files/jquery.js"></script>
+    <script src="Make%20true%20trip_files/bootstrap.js"></script>
+    <script src="Make%20true%20trip_files/popper.js"></script>
+    <link rel="stylesheet" href="Make%20true%20trip_files/bootstrap.css">
+    <link rel="stylesheet" href="Make%20true%20trip_files/style.css">
+    <link href="Make%20true%20trip_files/select2.css" rel="stylesheet">
+    <link rel="stylesheet" href="Make%20true%20trip_files/font-awesome.css">
+    <link rel="stylesheet" href="Make%20true%20trip_files/date.css">
+    <link rel="stylesheet" href="Make%20true%20trip_files/slick-theme.css">
+    <link rel="stylesheet" href="Make%20true%20trip_files/slick.css">
+    <link rel="stylesheet" href="Make%20true%20trip_files/responsive.css">
+    <link rel="stylesheet" href="Make%20true%20trip_files/hover-min.css">
+        <meta name="csrf-token" content="TVO5UbkbKPiRZ7ebMiaiZlPOGY8FROiXFuDQX8jj">
+    
+</head>
+
+<body> 
+    <div id="deskviewsearch">
+                <!-- desktop view header -->
+        <div id="deskheader">
+          <header class="stickyheader">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <div class="container">
+            <a href="http://127.0.0.1:8000/" class="float-left img-fluid">
+                <img src="Make%20true%20trip_files/logo.png" class="img-responsive">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:8000/"> <i class="fa fa-plane"></i> Flights</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="http://127.0.0.1:8000/hotels"> <i class="fa fa-building-o"></i> Hotels</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="http://127.0.0.1:8000/holidays"> <i class="fa fa-yelp"></i> Holidays</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="http://127.0.0.1:8000/cruise"> <i class="fa fa-ship"></i> Cruise</a>
+                </li> 
+                <!-- <li class="nav-item ">
+                    <a class="nav-link" href="http://127.0.0.1:8000/careers"> <i class="fa fa-ship"></i> Careers</a>
+                </li> -->
+                <li class="nav-item ">
+                    <a class="nav-link" href="http://127.0.0.1:8000/careers"> <i class="fa fa-line-chart"></i> Careers</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">More</a>
+                    <div class="dropdown-menu">
+                    
+                        <a class="dropdown-item" href="http://127.0.0.1:8000/activities-tours">Activities</a>
+                    </div>
+
+                </li>
+                
+            </ul>
+            <div class="float-right">
+                <div class="dropdown">
+
+                    <button type="button" class="btn btn-info btn-sm dropdown-toggle bgcolor1" data-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-user"></i> My Account
+                    </button>
+                    <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="http://127.0.0.1:8000/login"> Login | Sign Up</a>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>        </div>
+    
+    <!-- DESKTOP VIEW START  -->
+
+<div class="tourExperienceBanner">
+</div>
+
+<div class="searchBanner1">
+    <p class="m-0 small font-weight-bold">Searching for</p>
+    <input id="myInput" name="myCountry" type="text" placeholder="Activities Globally">
+</div>
+
+<div class="tourSliderBox1">
+    <h1>Select your city</h1>
+    <div class="tourSldr1">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="one1">
+                        <img src="Make%20true%20trip_files/1.jpg" alt="">
+                        <h6>Goa</h6>
+                        <p>70+ Options</p>
+                    </div>
+                    <div class="one2">
+                        <img src="Make%20true%20trip_files/6.jpg" alt="">
+                        <h6>Bali</h6>
+                        <p>50+ Options</p>
+                    </div>
+                    <div class="one3">
+                        <img src="Make%20true%20trip_files/2.jpg" alt="">
+                        <h6>Keral</h6>
+                        <p>50+ Options</p>
+                    </div>
+                    <div class="one4">
+                        <img src="Make%20true%20trip_files/3.jpg" alt="">
+                        <h6>Kolkata</h6>
+                        <p>50+ Options</p>
+                    </div>
+                    <div class="one5">
+                        <img src="Make%20true%20trip_files/4.jpg" alt="">
+                        <h6>Mumbai</h6>
+                        <p>50+ Options</p>
+                    </div>
+                    <div class="one6">
+                        <img src="Make%20true%20trip_files/5.jpg" alt="">
+                        <h6>Delhi</h6>
+                        <p>50+ Options</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="one1">
+                        <img src="Make%20true%20trip_files/7.jpg" alt="">
+                        <h6>Dubai</h6>
+                        <p>50+ Options</p>
+                    </div>
+                    <div class="one2">
+                        <img src="Make%20true%20trip_files/8.jpg" alt="">
+                        <h6>Jaipur</h6>
+                        <p>50+ Options</p>
+                    </div>
+                    <div class="one3">
+                        <img src="Make%20true%20trip_files/9.jpg" alt="">
+                        <h6>Rajashtan</h6>
+                        <p>50+ Options</p>
+                    </div>
+                    <div class="one4">
+                        <img src="Make%20true%20trip_files/11.jpg" alt="">
+                        <h6>Uttrakhand</h6>
+                        <p>50+ Options</p>
+                    </div>
+                    <div class="one5">
+                        <img src="Make%20true%20trip_files/3.jpg" alt="">
+                        <h6>Kashmir</h6>
+                        <p>50+ Options</p>
+                    </div>
+                    <div class="one6">
+                        <img src="Make%20true%20trip_files/5.jpg" alt="">
+                        <h6>Kolkata</h6>
+                        <p>50+ Options</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container p-0">
+    <div class="lftSdr35">
+        <h4 class="font-weight-bold m-0 pb-3">Refine Search</h4>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search" title="Type in a name">
+        <h6 class="m-0 pt-3 font-weight-bold">
+            Select Price Range
+        </h6>
+        <div class="slidecontainer mt-3">
+            <input type="range" min="1000" max="100000" value="64191" class="slider576" id="myRange">
+            <h6 class="font-weight-bold mt-3 text-muted">Value: <span id="result1">64191</span></h6>
+        </div>
+        <h6 class="m-0 pt-3 pb-2 font-weight-bold">Categories</h6>
+        <div class="categories12">
+            <label class="categ56">Private &amp; Custom Tours
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <label class="categ56">Tours &amp; Sightseeing
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <label class="categ56">Water Sports
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <label class="categ56">Cultural &amp; Theme Tours
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <label class="categ56">Spa and Wellness
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <h6 class="m-0 pt-3 pb-2 font-weight-bold">Categories</h6>
+        <div class="categories12">
+            <label class="categ56">Private &amp; Custom Tours
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <label class="categ56">Tours &amp; Sightseeing
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <label class="categ56">Water Sports
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <label class="categ56">Cultural &amp; Theme Tours
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <label class="categ56">Spa and Wellness
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <h6 class="m-0 pt-3 pb-2 font-weight-bold">Categories</h6>
+        <div class="categories12">
+            <label class="categ56">
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <label class="categ56">
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <label class="categ56">
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </div>
+    <div class="rgtSdr35">
+        <h4 class="font-weight-bold m-0"> Activities across cities</h4>
+        <p class="small m-0 pb-2">(out of 9258+ activities)</p>
+        <div class="crdtrp1">
+            <div class="imgbox1"></div>
+            <div class="dsc1">
+                <h5>Lorem Ipsum is simply dummy text of the printing.</h5>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <br>
+                <p>168 Rating</p>
+                <h6>Plan for: <span>11 Hours</span></h6>
+                <br>
+                <hr>
+                <p class="small-5">• There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form,</p>
+                <button>Read More...</button>
+            </div>
+            <div class="priceTag1">
+                <div class="ofr1">
+                    Save 20%
+                </div>
+                <h5 class="text-secondary"><del>₹3,500</del></h5>
+                <h3>₹8,500</h3>
+                <p class="text-secondary">Per Person</p>
+                <span>(Inclusive of all taxes)</span>
+            </div>
+        </div>
+        <div class="crdtrp1">
+            <div class="imgbox1"></div>
+            <div class="dsc1">
+                <h5>Lorem Ipsum is simply dummy text of the printing.</h5>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <br>
+                <p>168 Rating</p>
+                <h6>Plan for: <span>11 Hours</span></h6>
+                <br>
+                <hr>
+                <p class="small-5">• There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form,</p>
+                <button>Read More...</button>
+            </div>
+            <div class="priceTag1">
+                <div class="ofr1">
+                    Save 20%
+                </div>
+                <h5 class="text-secondary"><del>₹3,500</del></h5>
+                <h3>₹8,500</h3>
+                <p class="text-secondary">Per Person</p>
+                <span>(Inclusive of all taxes)</span>
+            </div>
+        </div>
+        <div class="crdtrp1">
+            <div class="imgbox1"></div>
+            <div class="dsc1">
+                <h5>Lorem Ipsum is simply dummy text of the printing.</h5>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <br>
+                <p>168 Rating</p>
+                <h6>Plan for: <span>11 Hours</span></h6>
+                <br>
+                <hr>
+                <p class="small-5">• There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form,</p>
+                <button>Read More...</button>
+            </div>
+            <div class="priceTag1">
+                <div class="ofr1">
+                    Save 20%
+                </div>
+                <h5 class="text-secondary"><del>₹3,500</del></h5>
+                <h3>₹8,500</h3>
+                <p class="text-secondary">Per Person</p>
+                <span>(Inclusive of all taxes)</span>
+            </div>
+        </div>
+        <div class="crdtrp1">
+            <div class="imgbox1"></div>
+            <div class="dsc1">
+                <h5>Lorem Ipsum is simply dummy text of the printing.</h5>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <br>
+                <p>168 Rating</p>
+                <h6>Plan for: <span>11 Hours</span></h6>
+                <br>
+                <hr>
+                <p class="small-5">• There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form,</p>
+                <button>Read More...</button>
+            </div>
+            <div class="priceTag1">
+                <div class="ofr1">
+                    Save 20%
+                </div>
+                <h5 class="text-secondary"><del>₹3,500</del></h5>
+                <h3>₹8,500</h3>
+                <p class="text-secondary">Per Person</p>
+                <span>(Inclusive of all taxes)</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- DESKTOP VIEW END   -->
+
+<script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("result1");
+    output.innerHTML = slider.value;
+
+    slider.oninput = function () {
+        output.innerHTML = this.value;
+    }
+
+</script>
+
+<footer class="bg-footer">
+    <section class="container pt-20 pb-20">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="searchtitle colorgrey"> Browse Tour </div>
+                <div class="borderbotum"></div>
+                <a href="http://127.0.0.1:8000/"><span class="slitxt footag">Flights</span></a>
+                <a href="http://127.0.0.1:8000/hotels"><span class="slitxt footag">Hotels</span></a>
+                <a href="http://127.0.0.1:8000/holidays"><span class="slitxt footag">Holidays</span></a>
+
+                
+                <a href="http://127.0.0.1:8000/visa"><span class="slitxt footag">Visa</span></a>
+            </div>
+            <div class="col-sm-3">
+                <div class="searchtitle colorgrey"> Company </div>
+                <div class="borderbotum"></div>
+                <a href="http://127.0.0.1:8000/about-us"> <span class="slitxt footag">About Us</span> </a>
+                <a href="http://127.0.0.1:8000/terms-and-conditions"> <span class="slitxt footag">Terms And Conditions</span>
+                </a>
+                <a href="http://127.0.0.1:8000/user-agreement"> <span class="slitxt footag">User Agreement</span> </a>
+                <a href="http://127.0.0.1:8000/privacy-policy"> <span class="slitxt footag">Privacy Policy</span> </a>
+                <a href="http://127.0.0.1:8000/contact-us"> <span class="slitxt footag">Contact Us</span> </a>
+                <a href="http://127.0.0.1:8000/careers"> <span class="slitxt footag">Careers</span> </a>
+            </div>
+            <div class="col-sm-3">
+                <div class="searchtitle colorgrey"> Travel Resources </div>
+                <div class="borderbotum"></div>
+                <span class="slitxt footag">International Travel Guide</span>
+                <span class="slitxt footag">Hotels in India</span>
+                <span class="slitxt footag">Popular Airlines</span>
+                <span class="slitxt footag">Airports in India</span>
+                <span class="slitxt footag">Cheap Flights</span>
+                <span class="slitxt footag">International Airports</span>
+            </div>
+            <div class="col-sm-3">
+                <div class="searchtitle colorgrey"> More Links </div>
+                <div class="borderbotum"></div>
+                <a href="http://127.0.0.1:8000/activities-tours"> <span class="slitxt footag">Activities Tours</span> </a>
+                <a href="http://127.0.0.1:8000/trip-ideas"> <span class="slitxt footag">Trip Ideas</span> </a>
+                <a href="http://127.0.0.1:8000/testimonial"> <span class="slitxt footag">Testimonial</span> </a>
+                <a href="http://127.0.0.1:8000/my-biz"> <span class="slitxt footag">My biz</span> </a>
+                <a href="http://127.0.0.1:8000/deals"> <span class="slitxt footag">Deals</span> </a>
+                <a href="http://127.0.0.1:8000/blog"> <span class="slitxt footag">Blog</span> </a>
+            </div>
+        </div>
+    </section>
+    <div class="container topborderfooter">
+        <span class="footext">Copyright © 2021 XYZ PVT. LTD.</span>
+        <span class="footext float-right">
+            We Accept |
+            <img src="Make%20true%20trip_files/payment1.png" class="imgw-30" alt="">
+            <img src="Make%20true%20trip_files/payment2.png" class="imgw-30" alt="">
+            <img src="Make%20true%20trip_files/payment3.png" class="imgw-30" alt="">
+            <img src="Make%20true%20trip_files/payment4.png" class="imgw-30" alt="">
+        </span>
+    </div>
+</footer>
+
+    
+    <script src="Make%20true%20trip_files/select2.js"></script>
+    <script src="Make%20true%20trip_files/date.js"></script>
+    <script src="Make%20true%20trip_files/slick.js"></script>
+    <script src="Make%20true%20trip_files/slick_002.js"></script>
+    <script src="Make%20true%20trip_files/responsive.js"></script>
+    <script src="Make%20true%20trip_files/search-flight.js"></script>
+    <script src="Make%20true%20trip_files/hotel.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            var CSRF_TOKEN = $('meta[name="csrf-token"]').attr('content');
+            $(document).ready(function() {
+
+                $(".getLocation").select2({
+                    ajax: {
+                        url: "/api/airlinecodes",
+                        dataType: 'json',
+                        delay: 250,
+                        data: function(params) {
+                            return {
+                                _token: CSRF_TOKEN,
+                                search: params.term // search term
+                            };
+                        },
+                        processResults: function(response) {
+                            return {
+                                results: response
+                            };
+                        },
+                        cache: true
+                    }
+                });
+            });
+
+            $('.js-example-basic-single').select2();
+
+            $('.regular').slick({
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: false
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+
+                ]
+            });
+            $('.regular2').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: false
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+
+        function togglePopup() {
+            $(".content").toggle();
+        }
+        
+    </script>
+
+
+
+</div></body></html>

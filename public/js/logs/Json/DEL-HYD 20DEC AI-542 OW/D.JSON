@@ -1,0 +1,2568 @@
+[
+    {
+        "SessionID": "5DCC0C53-795D-4F13-8FE4-45F323A12201",
+        "Error": {
+            "ErrorCode": null,
+            "Description": "",
+            "Category": null
+        },
+        "Status": "Success",
+        "DateTime": "19-11-2021 12:49:14"
+    }
+]	{
+    "Request_Of_availability": [
+        {
+            "Trip": 1,
+            "TripType": 1,
+            "Adult": "1",
+            "Child": "0",
+            "Infant": "0",
+            "NonStop": false,
+            "PreferredClass": "",
+            "PreferredCarrier": "",
+            "RTF": false,
+            "SessionID": "5DCC0C53-795D-4F13-8FE4-45F323A12201",
+            "Segments": [
+                {
+                    "Origin": "DEL",
+                    "Destination": "BOM",
+                    "DepartDate": "18\/12\/2021",
+                    "PreferredClass": ""
+                }
+            ]
+        }
+    ],
+    "Response_Of_availability": [
+        {
+            "SessionID": "5DCC0C53-795D-4F13-8FE4-45F323A12201",
+            "Status": "Success",
+            "Key": "920ea0ec-8520-42dc-9425-2ff1f1fad55f",
+            "Adult": "1",
+            "Child": "0",
+            "Infant": "0",
+            "Trip": "D",
+            "TripType": "O",
+            "Availibilities": [
+                {
+                    "Availibility": [
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "9643EconomyAI1-Stop202112182021121819002000612EconomyAI1-Stop202112192021121914001550",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "True"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T19:00:00",
+                                            "InternationalTime": "2021-12-18T19:00:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "JAI",
+                                            "AirportName": "Jaipur",
+                                            "CityName": "Jaipur",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-18T20:00:00",
+                                            "InternationalTime": "2021-12-18T20:00:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "9643",
+                                            "OperatingCarrier": "9I"
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "15",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "1-Stop",
+                                        "Duration": "20:50",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "ATR",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "9643EconomyAI1-Stop202112182021121819002000612EconomyAI1-Stop202112192021121914001550"
+                                    },
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "True"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "JAI",
+                                            "AirportName": "Jaipur",
+                                            "CityName": "Jaipur",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-19T14:00:00",
+                                            "InternationalTime": "2021-12-19T14:00:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-19T15:50:00",
+                                            "InternationalTime": "2021-12-19T15:50:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "612",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "15",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "2",
+                                        "Flight": "1",
+                                        "StopCount": "1-Stop",
+                                        "Duration": "20:50",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "321",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "9643EconomyAI1-Stop202112182021121819002000612EconomyAI1-Stop202112192021121914001550"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "9643EconomyAI1-Stop202112182021121819002000NRMFalseFalse612EconomyAI1-Stop202112192021121914001550NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "2803",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "971",
+                                            "Fare": "3774",
+                                            "NetFare": "3774",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "3774",
+                                                    "BaseFare": "2803",
+                                                    "TotalTax": "971",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "161"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "810"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SIP9I",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                },
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP30",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "2",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                }
+                                            ]
+                                        },
+                                        "Penalties": {
+                                            "ChangePenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Amount",
+                                                    "Text": null
+                                                }
+                                            ],
+                                            "CancelPenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Percentage",
+                                                    "Text": null
+                                                }
+                                            ]
+                                        },
+                                        "FareType": "NRM"
+                                    }
+                                ]
+                            },
+                            "ItemNo": "1"
+                        },
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "887EconomyAI0-Stop202112182021121807000905",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "False"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T07:00:00",
+                                            "InternationalTime": "2021-12-18T07:00:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-18T09:05:00",
+                                            "InternationalTime": "2021-12-18T09:05:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "887",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "25",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "0-Stop",
+                                        "Duration": "02:05",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "321",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "887EconomyAI0-Stop202112182021121807000905"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "887EconomyAI0-Stop202112182021121807000905NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "4155",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "776",
+                                            "Fare": "4931",
+                                            "NetFare": "4931",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "4931",
+                                                    "BaseFare": "4155",
+                                                    "TotalTax": "776",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "216"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "560"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP15",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                }
+                                            ]
+                                        },
+                                        "Penalties": {
+                                            "ChangePenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Amount",
+                                                    "Text": null
+                                                }
+                                            ],
+                                            "CancelPenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Percentage",
+                                                    "Text": null
+                                                }
+                                            ]
+                                        },
+                                        "FareType": "NRM"
+                                    }
+                                ]
+                            },
+                            "ItemNo": "2"
+                        },
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "665EconomyAI0-Stop202112182021121808001010",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "False"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T08:00:00",
+                                            "InternationalTime": "2021-12-18T08:00:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-18T10:10:00",
+                                            "InternationalTime": "2021-12-18T10:10:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "665",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "25",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "0-Stop",
+                                        "Duration": "02:10",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "321",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "665EconomyAI0-Stop202112182021121808001010"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "665EconomyAI0-Stop202112182021121808001010NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "4155",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "776",
+                                            "Fare": "4931",
+                                            "NetFare": "4931",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "4931",
+                                                    "BaseFare": "4155",
+                                                    "TotalTax": "776",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "216"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "560"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP15",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                }
+                                            ]
+                                        },
+                                        "Penalties": {
+                                            "ChangePenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Amount",
+                                                    "Text": null
+                                                }
+                                            ],
+                                            "CancelPenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Percentage",
+                                                    "Text": null
+                                                }
+                                            ]
+                                        },
+                                        "FareType": "NRM"
+                                    }
+                                ]
+                            },
+                            "ItemNo": "3"
+                        },
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "678EconomyAI0-Stop202112182021121809001115",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "False"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T09:00:00",
+                                            "InternationalTime": "2021-12-18T09:00:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-18T11:15:00",
+                                            "InternationalTime": "2021-12-18T11:15:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "678",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "25",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "0-Stop",
+                                        "Duration": "02:15",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "32B",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "678EconomyAI0-Stop202112182021121809001115"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "678EconomyAI0-Stop202112182021121809001115NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "4155",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "776",
+                                            "Fare": "4931",
+                                            "NetFare": "4931",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "4931",
+                                                    "BaseFare": "4155",
+                                                    "TotalTax": "776",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "216"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "560"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP15",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                }
+                                            ]
+                                        },
+                                        "Penalties": {
+                                            "ChangePenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Amount",
+                                                    "Text": null
+                                                }
+                                            ],
+                                            "CancelPenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Percentage",
+                                                    "Text": null
+                                                }
+                                            ]
+                                        },
+                                        "FareType": "NRM"
+                                    }
+                                ]
+                            },
+                            "ItemNo": "4"
+                        },
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "624EconomyAI0-Stop202112182021121819002115",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "False"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T19:00:00",
+                                            "InternationalTime": "2021-12-18T19:00:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-18T21:15:00",
+                                            "InternationalTime": "2021-12-18T21:15:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "624",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "25",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "0-Stop",
+                                        "Duration": "02:15",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "32B",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "624EconomyAI0-Stop202112182021121819002115"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "624EconomyAI0-Stop202112182021121819002115NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "4155",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "776",
+                                            "Fare": "4931",
+                                            "NetFare": "4931",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "4931",
+                                                    "BaseFare": "4155",
+                                                    "TotalTax": "776",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "216"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "560"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP15",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                }
+                                            ]
+                                        },
+                                        "Penalties": {
+                                            "ChangePenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Amount",
+                                                    "Text": null
+                                                }
+                                            ],
+                                            "CancelPenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Percentage",
+                                                    "Text": null
+                                                }
+                                            ]
+                                        },
+                                        "FareType": "NRM"
+                                    }
+                                ]
+                            },
+                            "ItemNo": "5"
+                        },
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "636EconomyAI1-Stop202112182021121815051815",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "IDR",
+                                            "IsChangeOfPlane": "False"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T15:05:00",
+                                            "InternationalTime": "2021-12-18T15:05:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "1",
+                                            "DateTime": "2021-12-18T18:15:00",
+                                            "InternationalTime": "2021-12-18T18:15:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "636",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "25",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "1-Stop",
+                                        "Duration": "03:10",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "319",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "636EconomyAI1-Stop202112182021121815051815"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "636EconomyAI1-Stop202112182021121815051815NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "4155",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "776",
+                                            "Fare": "4931",
+                                            "NetFare": "4931",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "4931",
+                                                    "BaseFare": "4155",
+                                                    "TotalTax": "776",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "216"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "560"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP15",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                }
+                                            ]
+                                        },
+                                        "Penalties": {
+                                            "ChangePenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Amount",
+                                                    "Text": null
+                                                }
+                                            ],
+                                            "CancelPenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Percentage",
+                                                    "Text": null
+                                                }
+                                            ]
+                                        },
+                                        "FareType": "NRM"
+                                    }
+                                ]
+                            },
+                            "ItemNo": "6"
+                        },
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "441EconomyAI1-Stop202112182021121817502135",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "IXU",
+                                            "IsChangeOfPlane": "False"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T17:50:00",
+                                            "InternationalTime": "2021-12-18T17:50:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "1",
+                                            "DateTime": "2021-12-18T21:35:00",
+                                            "InternationalTime": "2021-12-18T21:35:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "441",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "25",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "1-Stop",
+                                        "Duration": "03:45",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "32B",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "441EconomyAI1-Stop202112182021121817502135"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "441EconomyAI1-Stop202112182021121817502135NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "4155",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "776",
+                                            "Fare": "4931",
+                                            "NetFare": "4931",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "4931",
+                                                    "BaseFare": "4155",
+                                                    "TotalTax": "776",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "216"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "560"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP15",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                }
+                                            ]
+                                        },
+                                        "Penalties": {
+                                            "ChangePenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Amount",
+                                                    "Text": null
+                                                }
+                                            ],
+                                            "CancelPenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Percentage",
+                                                    "Text": null
+                                                }
+                                            ]
+                                        },
+                                        "FareType": "NRM"
+                                    }
+                                ]
+                            },
+                            "ItemNo": "7"
+                        },
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "469EconomyAI2-Stop202112182021121805150835628EconomyAI1-Stop202112192021121907550920",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "RPR",
+                                            "IsChangeOfPlane": "True"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T05:15:00",
+                                            "InternationalTime": "2021-12-18T05:15:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "NAG",
+                                            "AirportName": "Nagpur",
+                                            "CityName": "Nagpur",
+                                            "Terminal": "1",
+                                            "DateTime": "2021-12-18T08:35:00",
+                                            "InternationalTime": "2021-12-18T08:35:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "469",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "25",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "2-Stop",
+                                        "Duration": "28:05",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "32A",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "469EconomyAI2-Stop202112182021121805150835628EconomyAI1-Stop202112192021121907550920"
+                                    },
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "True"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "NAG",
+                                            "AirportName": "Nagpur",
+                                            "CityName": "Nagpur",
+                                            "Terminal": "1",
+                                            "DateTime": "2021-12-19T07:55:00",
+                                            "InternationalTime": "2021-12-19T07:55:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-19T09:20:00",
+                                            "InternationalTime": "2021-12-19T09:20:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "628",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "25",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "2",
+                                        "Flight": "1",
+                                        "StopCount": "1-Stop",
+                                        "Duration": "28:05",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "32B",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "469EconomyAI2-Stop202112182021121805150835628EconomyAI1-Stop202112192021121907550920"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "469EconomyAI2-Stop202112182021121805150835NRMFalseFalse628EconomyAI1-Stop202112192021121907550920NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "4020",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "948",
+                                            "Fare": "4968",
+                                            "NetFare": "4968",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "4968",
+                                                    "BaseFare": "4020",
+                                                    "TotalTax": "948",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "218"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "730"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP15",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                },
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP30",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "2",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                }
+                                            ]
+                                        },
+                                        "Penalties": {
+                                            "ChangePenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Amount",
+                                                    "Text": null
+                                                }
+                                            ],
+                                            "CancelPenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Percentage",
+                                                    "Text": null
+                                                }
+                                            ]
+                                        },
+                                        "FareType": "NRM"
+                                    }
+                                ]
+                            },
+                            "ItemNo": "8"
+                        },
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "9809EconomyAI2-Stop202112182021121813151635626EconomyAI1-Stop202112192021121911051325",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "GOP",
+                                            "IsChangeOfPlane": "True"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T13:15:00",
+                                            "InternationalTime": "2021-12-18T13:15:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "LKO",
+                                            "AirportName": "Lucknow",
+                                            "CityName": "Lucknow",
+                                            "Terminal": "1",
+                                            "DateTime": "2021-12-18T16:35:00",
+                                            "InternationalTime": "2021-12-18T16:35:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "9809",
+                                            "OperatingCarrier": "9I"
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "15",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "2-Stop",
+                                        "Duration": "24:10",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "ATR",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "9809EconomyAI2-Stop202112182021121813151635626EconomyAI1-Stop202112192021121911051325"
+                                    },
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "True"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "LKO",
+                                            "AirportName": "Lucknow",
+                                            "CityName": "Lucknow",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-19T11:05:00",
+                                            "InternationalTime": "2021-12-19T11:05:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-19T13:25:00",
+                                            "InternationalTime": "2021-12-19T13:25:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "626",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "15",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "2",
+                                        "Flight": "1",
+                                        "StopCount": "1-Stop",
+                                        "Duration": "24:10",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "32B",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "9809EconomyAI2-Stop202112182021121813151635626EconomyAI1-Stop202112192021121911051325"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "9809EconomyAI2-Stop202112182021121813151635NRMFalseFalse626EconomyAI1-Stop202112192021121911051325NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "4800",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "1071",
+                                            "Fare": "5871",
+                                            "NetFare": "5871",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "5871",
+                                                    "BaseFare": "4800",
+                                                    "TotalTax": "1071",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "261"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "810"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SIP9I",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                },
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP30",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "2",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                }
+                                            ]
+                                        },
+                                        "Penalties": {
+                                            "ChangePenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Amount",
+                                                    "Text": null
+                                                }
+                                            ],
+                                            "CancelPenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Percentage",
+                                                    "Text": null
+                                                }
+                                            ]
+                                        },
+                                        "FareType": "NRM"
+                                    }
+                                ]
+                            },
+                            "ItemNo": "9"
+                        },
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "805EconomyAI0-Stop202112182021121820002210",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "False"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T20:00:00",
+                                            "InternationalTime": "2021-12-18T20:00:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-18T22:10:00",
+                                            "InternationalTime": "2021-12-18T22:10:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "805",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "25",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "0-Stop",
+                                        "Duration": "02:10",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "319",
+                                        "Cabin": "Y",
+                                        "BookingCode": "U",
+                                        "Key": "805EconomyAI0-Stop202112182021121820002210"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "805EconomyAI0-Stop202112182021121820002210NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "5130",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "825",
+                                            "Fare": "5955",
+                                            "NetFare": "5955",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "5955",
+                                                    "BaseFare": "5130",
+                                                    "TotalTax": "825",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "265"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "560"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "UAP15",
+                                                    "BookingCode": "U",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "U"
+                                                }
+                                            ]
+                                        },
+                                        "Penalties": {
+                                            "ChangePenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Amount",
+                                                    "Text": null
+                                                }
+                                            ],
+                                            "CancelPenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Percentage",
+                                                    "Text": null
+                                                }
+                                            ]
+                                        },
+                                        "FareType": "NRM"
+                                    }
+                                ]
+                            },
+                            "ItemNo": "10"
+                        },
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "9843EconomyAI1-Stop202112182021121806050710612EconomyAI1-Stop202112182021121814001550",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "True"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T06:05:00",
+                                            "InternationalTime": "2021-12-18T06:05:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "JAI",
+                                            "AirportName": "Jaipur",
+                                            "CityName": "Jaipur",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-18T07:10:00",
+                                            "InternationalTime": "2021-12-18T07:10:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "9843",
+                                            "OperatingCarrier": "9I"
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "15",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "1-Stop",
+                                        "Duration": "09:45",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "ATR",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "9843EconomyAI1-Stop202112182021121806050710612EconomyAI1-Stop202112182021121814001550"
+                                    },
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "True"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "JAI",
+                                            "AirportName": "Jaipur",
+                                            "CityName": "Jaipur",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-18T14:00:00",
+                                            "InternationalTime": "2021-12-18T14:00:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-18T15:50:00",
+                                            "InternationalTime": "2021-12-18T15:50:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "612",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "15",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "2",
+                                        "Flight": "1",
+                                        "StopCount": "1-Stop",
+                                        "Duration": "09:45",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "321",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "9843EconomyAI1-Stop202112182021121806050710612EconomyAI1-Stop202112182021121814001550"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "9843EconomyAI1-Stop202112182021121806050710NRMFalseFalse612EconomyAI1-Stop202112182021121814001550NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "4907",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "1076",
+                                            "Fare": "5983",
+                                            "NetFare": "5983",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "5983",
+                                                    "BaseFare": "4907",
+                                                    "TotalTax": "1076",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "266"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "810"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SIP9I",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                },
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP15",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "2",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                }
+                                            ]
+                                        },
+                                        "Penalties": {
+                                            "ChangePenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Amount",
+                                                    "Text": null
+                                                }
+                                            ],
+                                            "CancelPenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Percentage",
+                                                    "Text": null
+                                                }
+                                            ]
+                                        },
+                                        "FareType": "NRM"
+                                    }
+                                ]
+                            },
+                            "ItemNo": "11"
+                        },
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "839EconomyAI1-Stop202112182021121821252335698EconomyAI1-Stop202112192021121922152355",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "True"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T21:25:00",
+                                            "InternationalTime": "2021-12-18T21:25:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "HYD",
+                                            "AirportName": "Hyderabad",
+                                            "CityName": "Hyderabad",
+                                            "Terminal": "1",
+                                            "DateTime": "2021-12-18T23:35:00",
+                                            "InternationalTime": "2021-12-18T23:35:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "839",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "25",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "1-Stop",
+                                        "Duration": "26:30",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "321",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "839EconomyAI1-Stop202112182021121821252335698EconomyAI1-Stop202112192021121922152355"
+                                    },
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "True"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "HYD",
+                                            "AirportName": "Hyderabad",
+                                            "CityName": "Hyderabad",
+                                            "Terminal": "1",
+                                            "DateTime": "2021-12-19T22:15:00",
+                                            "InternationalTime": "2021-12-19T22:15:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-19T23:55:00",
+                                            "InternationalTime": "2021-12-19T23:55:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "698",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "25",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "2",
+                                        "Flight": "1",
+                                        "StopCount": "1-Stop",
+                                        "Duration": "26:30",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "319",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "839EconomyAI1-Stop202112182021121821252335698EconomyAI1-Stop202112192021121922152355"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "839EconomyAI1-Stop202112182021121821252335NRMFalseFalse698EconomyAI1-Stop202112192021121922152355NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "5635",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "1029",
+                                            "Fare": "6664",
+                                            "NetFare": "6664",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "6664",
+                                                    "BaseFare": "5635",
+                                                    "TotalTax": "1029",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "299"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "730"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP15",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                },
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP30",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "2",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                }
+                                            ]
+                                        },
+                                        "Penalties": {
+                                            "ChangePenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Amount",
+                                                    "Text": null
+                                                }
+                                            ],
+                                            "CancelPenalty": [
+                                                {
+                                                    "PaxType": "ADT",
+                                                    "Type": "Percentage",
+                                                    "Text": null
+                                                }
+                                            ]
+                                        },
+                                        "FareType": "NRM"
+                                    }
+                                ]
+                            },
+                            "ItemNo": "12"
+                        },
+                        {
+                            "IsLCC": "false",
+                            "Provider": "1G",
+                            "FlightKey": "491EconomyAI1-Stop202112182021121811551255612EconomyAI1-Stop202112182021121814001550",
+                            "TotalDuration": [
+                                {
+                                    "Flight": "1",
+                                    "Text": "0"
+                                }
+                            ],
+                            "Itineraries": {
+                                "Itinerary": [
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "True"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "DEL",
+                                            "AirportName": "New Delhi",
+                                            "CityName": "New Delhi",
+                                            "Terminal": "3",
+                                            "DateTime": "2021-12-18T11:55:00",
+                                            "InternationalTime": "2021-12-18T11:55:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "JAI",
+                                            "AirportName": "Jaipur",
+                                            "CityName": "Jaipur",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-18T12:55:00",
+                                            "InternationalTime": "2021-12-18T12:55:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "491",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "25",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "1",
+                                        "Flight": "1",
+                                        "StopCount": "1-Stop",
+                                        "Duration": "03:55",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "32B",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "491EconomyAI1-Stop202112182021121811551255612EconomyAI1-Stop202112182021121814001550"
+                                    },
+                                    {
+                                        "Conx": {
+                                            "ViaPoint": "",
+                                            "IsChangeOfPlane": "True"
+                                        },
+                                        "Origin": {
+                                            "AirportCode": "JAI",
+                                            "AirportName": "Jaipur",
+                                            "CityName": "Jaipur",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-18T14:00:00",
+                                            "InternationalTime": "2021-12-18T14:00:00.000+05:30"
+                                        },
+                                        "Destination": {
+                                            "AirportCode": "BOM",
+                                            "AirportName": "Mumbai",
+                                            "CityName": "Mumbai",
+                                            "Terminal": "2",
+                                            "DateTime": "2021-12-18T15:50:00",
+                                            "InternationalTime": "2021-12-18T15:50:00.000+05:30"
+                                        },
+                                        "AirLine": {
+                                            "Code": "AI",
+                                            "Name": "AI",
+                                            "Identification": "612",
+                                            "OperatingCarrier": ""
+                                        },
+                                        "Baggage": {
+                                            "Allowance": {
+                                                "CheckIn": "15",
+                                                "Cabin": "7",
+                                                "CheckInPiece": "0",
+                                                "CabinPiece": "0"
+                                            }
+                                        },
+                                        "Leg": "2",
+                                        "Flight": "1",
+                                        "StopCount": "1-Stop",
+                                        "Duration": "03:55",
+                                        "AvailableSeats": "",
+                                        "EquipmentType": "321",
+                                        "Cabin": "Y",
+                                        "BookingCode": "S",
+                                        "Key": "491EconomyAI1-Stop202112182021121811551255612EconomyAI1-Stop202112182021121814001550"
+                                    }
+                                ]
+                            },
+                            "PricingInfos": {
+                                "PricingInfo": [
+                                    {
+                                        "Pricingkey": "491EconomyAI1-Stop202112182021121811551255NRMFalseFalse612EconomyAI1-Stop202112182021121814001550NRMFalseFalse",
+                                        "Meal": "YES",
+                                        "Total": {
+                                            "BaseFare": "5718",
+                                            "FuelSurcharge": "0",
+                                            "OtherTax": "1033",
+                                            "Fare": "6751",
+                                            "NetFare": "6751",
+                                            "CommissionEarned": "0",
+                                            "CashBackEarned": "0",
+                                            "PLBEarned": "0",
+                                            "TdsOnCommision": "0",
+                                            "TdsOnCashBack": "0",
+                                            "TdsOnPlb": "0",
+                                            "ServiceFee": "0"
+                                        },
+                                        "FareBreakDowns": {
+                                            "FareBreakDown": [
+                                                {
+                                                    "TotalFare": "6751",
+                                                    "BaseFare": "5718",
+                                                    "TotalTax": "1033",
+                                                    "Taxes": {
+                                                        "Tax": [
+                                                            {
+                                                                "TaxCode": "YQ",
+                                                                "Amount": "0"
+                                                            },
+                                                            {
+                                                                "TaxCode": "K3",
+                                                                "Amount": "303"
+                                                            },
+                                                            {
+                                                                "TaxCode": "OT",
+                                                                "Amount": "730"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Messages": "",
+                                                    "PaxType": "ADT",
+                                                    "Currency": "INR",
+                                                    "Refundable": "Refundable"
+                                                }
+                                            ]
+                                        },
+                                        "FareInfos": {
+                                            "FareInfo": [
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP15",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    "FareRuleKey": "",
+                                                    "FareSegRef": "",
+                                                    "Leg": "1",
+                                                    "Flight": "1",
+                                                    "PaxType": "ADT",
+                                                    "PaxCabin": "Economy",
+                                                    "PaxFareBasis": "",
+                                                    "PaxBookingClass": "S"
+                                                },
+                                                {
+                                                    "Cabin": "Economy",
+                                                    "FareBasis": "SAP15",
+                                                    "BookingCode": "S",
+                                                    "RuleNumber": "",
+                                                    [
+                                                        {
+                                                            "SessionID": "5DCC0C53-795D-4F13-8FE4-45F323A12201",
+                                                            "Key": "920ea0ec-8520-42dc-9425-2ff1f1fad55f",
+                                                            "ReferenceNo": "TBF3490",
+                                                            "CustomerInfo": {
+                                                                "Email": "kumar@maketruetrip.com",
+                                                                "Mobile": "7665947108",
+                                                                "Address": "5b 13 Street No 1 Subhash Nagar Metro Gate No 1",
+                                                                "City": "Delhi",
+                                                                "State": "Delhi",
+                                                                "CountryCode": "IN",
+                                                                "CountryName": "India",
+                                                                "ZipCode": "110018",
+                                                                "PassengerDetails": [
+                                                                    {
+                                                                        "Title": "MR",
+                                                                        "Gender": "",
+                                                                        "FirstName": "Yashwant",
+                                                                        "MiddleName": "",
+                                                                        "LastName": "kumar",
+                                                                        "DateOfBirth": "",
+                                                                        "PaxType": "ADT",
+                                                                        "PassportNumber": "",
+                                                                        "IssuingCountry": "",
+                                                                        "ExpiryDate": ""
+                                                                    }
+                                                                ],
+                                                                "PassengerTicketDetails": [],
+                                                                "Payment": {}
+                                                            },
+                                                            "SSRInfo": [],
+                                                            "TotalAmount": "0",
+                                                            "SSRAmount": 0,
+                                                            "Discount": 0,
+                                                            "GrandTotalFare": "0",
+                                                            "IsGSTProvided": false
+                                                        }
+                                                    ],
+                                                    "Response_Of_addpassengerdetails": [
+                                                        {
+                                                            "Status": "Success",
+                                                            "Key": "920ea0ec-8520-42dc-9425-2ff1f1fad55f",
+                                                            "ClientCode": "MakeTrueTrip",
+                                                            "ReferenceNo": "TBF3490",
+                                                            "AirItineries": null,
+                                                            "CustomerInfo": null,
+                                                            "Error": null
+                                                        }
+                                                    ]
+                                                }	{
+                                                    "Request_Of_booking": [
+                                                        {
+                                                            "SessionID": "5DCC0C53-795D-4F13-8FE4-45F323A12201",
+                                                            "Key": "920ea0ec-8520-42dc-9425-2ff1f1fad55f",
+                                                            "ReferenceNo": "TBF3490",
+                                                            "Provider": "1G"
+                                                        }
+                                                    ],
+                                                    "Response_Of_booking": [
+                                                        {
+                                                            "Status": "Hold",
+                                                            "ReferenceNo": "TBF3490",
+                                                            "TransactionID": "",
+                                                            "AirBookingResponse": [
+                                                                {
+                                                                    "Trip": 1,
+                                                                    "TripType": 1,
+                                                                    "Adult": 1,
+                                                                    "Child": 0,
+                                                                    "Infant": 0,
+                                                                    "PNR": "AI36754-FQ",
+                                                                    "TransactionID": null,
+                                                                    "BookingStatus": "Confirm",
+                                                                    "BookingDate": "19-11-2021 12: 49: 50",
+                                                                    "FlightDetails": [
+                                                                        {
+                                                                            "Leg": 1,
+                                                                            "FlightCount": 1,
+                                                                            "DepartAirportCode": "DEL",
+                                                                            "DepartAirportName": "Indira Gandhi Intl",
+                                                                            "DepartCityName": "New Delhi",
+                                                                            "DepartTerminal": "3",
+                                                                            "DepartDateTime": "2021-12-18T07: 00: 00.000+05: 30",
+                                                                            "ArrivalAirportCode": "BOM",
+                                                                            "ArrivalAirportName": "Chhatrapati Shivaji International",
+                                                                            "ArrivalCityName": "Mumbai",
+                                                                            "ArrivalTerminal": "2",
+                                                                            "ArrivalDateTime": "2021-12-18T09: 05: 00.000+05: 30",
+                                                                            "FlightNumber": "887",
+                                                                            "AirLineCode": "AI",
+                                                                            "AirLineName": "AI",
+                                                                            "Duration": "0",
+                                                                            "AvailableSeats": "",
+                                                                            "EquipmentType": "321",
+                                                                            "MarketingCarrier": "AI",
+                                                                            "OperatingCarrier": "",
+                                                                            "OperatingCarrierName": "",
+                                                                            "OperatingFlightNumber": "",
+                                                                            "AirLinePNR": "",
+                                                                            "TravelClass": "Economy",
+                                                                            "TrackID": "TBF3490",
+                                                                            "BookingCode": null,
+                                                                            "BaggageDetails": null,
+                                                                            "NumberOfStops": 0,
+                                                                            "ViaSector": null
+                                                                        }
+                                                                    ],
+                                                                    "FareDetails": {
+                                                                        "TotalBaseFare": 4155,
+                                                                        "TotalFuelSurcharge": 0,
+                                                                        "TotalOtherTax": 776,
+                                                                        "TotalFare": 4931,
+                                                                        "TotalDiscount": 0,
+                                                                        "TotalCashBack": 0,
+                                                                        "TotalTDS": 0,
+                                                                        "TotalServiceTax": 0,
+                                                                        "TotalTransactionTFee": 0,
+                                                                        "PaxFareDetails": [
+                                                                            {
+                                                                                "PaxType": "ADT",
+                                                                                "PaxBaseFare": 4155,
+                                                                                "PaxFuelSurcharge": 0,
+                                                                                "PaxOtherTax": 776,
+                                                                                "PaxTotalFare": 4931,
+                                                                                "PaxDiscount": 0,
+                                                                                "PaxCashBack": 0,
+                                                                                "PaxTDS": 0,
+                                                                                "PaxServiceTax": 0,
+                                                                                "PaxTransactionFee": 0,
+                                                                                "TravelFee": 0,
+                                                                                "Discount": 0,
+                                                                                "K3": 216,
+                                                                                "CGST": 0,
+                                                                                "SGST": 0,
+                                                                                "IGST": 0,
+                                                                                "UTGST": 0
+                                                                            }
+                                                                        ],
+                                                                        "PaxFareRules": null,
+                                                                        "PaxFares": null,
+                                                                        "Penalties": null,
+                                                                        "TravelFee": 0,
+                                                                        "ClassOfService": null,
+                                                                        "SellFare": 0,
+                                                                        "Discount": 0,
+                                                                        "CGST": 0,
+                                                                        "SGST": 0,
+                                                                        "IGST": 0,
+                                                                        "UTGST": 0,
+                                                                        "GSTAmount": 216,
+                                                                        "AffiliateCommission": 0,
+                                                                        "TdsOnCommission": 0,
+                                                                        "GSTonAffCommission": 0,
+                                                                        "NetAffiliateCommission": 0,
+                                                                        "AmountPayable": 0,
+                                                                        "AffCommissionPercentage": 0
+                                                                    },
+                                                                    "CustomerInfo": {
+                                                                        "Email": "kumar@maketruetrip.com",
+                                                                        "Mobile": "7665947108",
+                                                                        "Address": null,
+                                                                        "City": null,
+                                                                        "State": null,
+                                                                        "CountryCode": null,
+                                                                        "CountryName": null,
+                                                                        "ZipCode": null,
+                                                                        "PassengerDetails": [
+                                                                            {
+                                                                                "Title": "MR",
+                                                                                "Gender": null,
+                                                                                "FirstName": "Yashwant",
+                                                                                "MiddleName": "",
+                                                                                "LastName": "kumar",
+                                                                                "DateOfBirth": "",
+                                                                                "PaxType": "ADT",
+                                                                                "PassportNumber": "",
+                                                                                "MealType": " ",
+                                                                                "MealCode": " ",
+                                                                                "FFNo": null,
+                                                                                "InfAssPaxName": "",
+                                                                                "TicketNo": "",
+                                                                                "Status": "Confirm",
+                                                                                "ModifyStatus": "",
+                                                                                "Nationality": null,
+                                                                                "IssuingCountry": null,
+                                                                                "ExpiryDate": null,
+                                                                                "FrequentFlyerAirline": null,
+                                                                                "SeatListDetails": null,
+                                                                                "ConfirmSeat": []
+                                                                            }
+                                                                        ],
+                                                                        "PassengerTicketDetails": [
+                                                                            {
+                                                                                "ReferenceNo": "TBF3490",
+                                                                                "TrackID": "TBF3490",
+                                                                                "Title": "MR",
+                                                                                "FirstName": "Yashwant",
+                                                                                "MiddleName": null,
+                                                                                "LastName": "kumar",
+                                                                                "PaxTypeCode": "ADT",
+                                                                                "Gender": "",
+                                                                                "DOB": null,
+                                                                                "TicketID": "",
+                                                                                "TicketNumber": "",
+                                                                                "IssueDate": "",
+                                                                                "Status": "Confirm",
+                                                                                "ModifyStatus": "",
+                                                                                "ValidatingAirline": " ",
+                                                                                "FareBasis": null,
+                                                                                "Baggage": null,
+                                                                                "BaggageAllowance": null,
+                                                                                "ChangePenalty": null
+                                                                            }
+                                                                        ],
+                                                                        "Payment": {
+                                                                            "UserID": "MakeTrueTrip",
+                                                                            "ReferenceNo": "TBF3490",
+                                                                            "PaymentStatus": null,
+                                                                            "AmountPaid": 4931,
+                                                                            "PaymentDateTime": "19-11-2021 12: 49: 51",
+                                                                            "PaymentDetailPK": null,
+                                                                            "PGTypeCode": null,
+                                                                            "BookingRefNo": null,
+                                                                            "TransactionID": null,
+                                                                            "PaymentID": null,
+                                                                            "REMARKS": null,
+                                                                            "PromoCode": null,
+                                                                            "AmountToBePaid": 0,
+                                                                            "BookingType": null,
+                                                                            "Error": null,
+                                                                            "Bank_Ref_NO": null,
+                                                                            "PaymentMode": null,
+                                                                            "CardName": null
+                                                                        }
+                                                                    },
+                                                                    "EMDInformation": null,
+                                                                    "TrackID": "TBF3490",
+                                                                    "TotalAmount": 4931,
+                                                                    "Discount": 0,
+                                                                    "GrandTotalFare": 4931,
+                                                                    "ProductClass": null,
+                                                                    "AirlineRemark": null,
+                                                                    "TicketingStatus": null,
+                                                                    "ProviderDetails": {
+                                                                        "Tid": "AI36754-FQ",
+                                                                        "Status": "Confirm",
+                                                                        "Name": "",
+                                                                        "Info": "",
+                                                                        "TourCode": "AIDOM10",
+                                                                        "IataPccCode": "DEL"
+                                                                    },
+                                                                    "PaxBaggageDetails": null,
+                                                                    "SSRDetails": null,
+                                                                    "PenaltyDetails": null
+                                                                }
+                                                            ],
+                                                            "Error": null,
+                                                            "PaymentDetails": null,
+                                                            "SSRDetails": null,
+                                                            "GSTRequest": null
+                                                        }
+                                                    ]
+                                                }	{
+                                                    "Request_Of_ticket": [
+                                                        {
+                                                            "SessionID": "5DCC0C53-795D-4F13-8FE4-45F323A12201",
+                                                            "Key": "920ea0ec-8520-42dc-9425-2ff1f1fad55f",
+                                                            "ReferenceNo": "TBF3490",
+                                                            "Provider": "1G"
+                                                        }
+                                                    ],
+                                                    "Response_Of_ticket": [
+                                                        {
+                                                            "Status": "Failure",
+                                                            "ReferenceNo": null,
+                                                            "TransactionID": null,
+                                                            "AirBookingResponse": [],
+                                                            "Error": {
+                                                                "ErrorCode": null,
+                                                                "Description": "Booking already exists with confirm: TBF3490",
+                                                                "Category": null
+                                                            },
+                                                            "PaymentDetails": null,
+                                                            "SSRDetails": null,
+                                                            "GSTRequest": null
+                                                        }
+                                                    ]
+                                                }	2021-11-19 07: 19: 14	2021-11-19 07: 19: 57

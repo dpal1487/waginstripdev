@@ -1,0 +1,81 @@
+france* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    gap: 50px;
+}
+
+.grid-three-column {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contain {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.contain h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.card-1 {
+    padding: 20px 0px;
+}
+
+.card-2 {
+    padding: 20px 0px;
+}
+
+.france,
+.italy,
+.newZealand,
+.rishikesh,
+.shimla,
+.spain {
+    box-shadow: 0 10px 20px rgb(40 40 40);
+}
+
+.france img,
+.italy img,
+.newZealand img,
+.rishikesh img,
+.shimla img,
+.spain img {
+    width: 100%;
+}
+
+.france .overlay,
+.italy .overlay,
+.newZealand .overlay,
+.rishikesh .overlay,
+.shimla .overlay,
+.spain .overlay {
+    padding: 10px;
+}
+
+.france .overlay a,
+.italy .overlay a,
+.newZealand .overlay a,
+.rishikesh .overlay a,
+.shimla .overlay a,
+.spain .overlay a {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+}

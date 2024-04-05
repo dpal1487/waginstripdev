@@ -1,0 +1,313 @@
+.headingCheckIn{
+    background: url('/assets/images/logo/checkin.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    height: 25%;
+    margin-top: 34rem;
+}
+.overlay{
+    width: 100%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.2);
+}
+.headingCheckIn h1 {
+    position: relative;
+    top: -7rem;
+    float: right;
+    right: 33px;
+    color: #fff;
+}
+.mainContent{
+    background-color: #fff;
+    max-width: 1400px !important;
+    padding: 0px 28px !important;
+}
+.webCheckSub{
+    border: 1px solid #0164a3;
+    text-align: center;
+}
+.webCheckSub:hover{
+    border: 1px solid #aec1cd;
+}
+.webCheckSub p{
+    padding-top: 6px;
+    font-size: 27px;
+    font-weight: 800;
+    color: #0164a3;
+    cursor: default;
+}
+.impo{
+    background-color: lightgoldenrodyellow;
+    font-size: 13.1px;
+    margin-top: 23px;
+}
+.impo p{
+    padding: 1px 185px;
+}
+
+.mainFirst{
+    border: 1px solid wheat;
+    box-shadow: #aec1cd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.airAsia{
+    padding-left: 18rem;
+}
+.airAsia img{
+    width: 25%;
+}
+.indigo{
+    padding-left: 15rem;
+}
+.CheckFlight{
+    background: #80808012;
+    font-size: 13px;
+    padding: 13px;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 14px;
+}
+.p-btn-active{
+    padding-top: 6px;
+    transform: translateY(-0.2rem);
+    border-bottom: 1px solid #0164a3;
+    border-top: 1px solid #0164a3;
+    border-radius: 4px;
+}
+
+.card-not-active{
+    display: none;
+}
+
+.p-btn{
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 11px;
+    max-width: 162px;
+    text-align: center;
+}
+.p-btn2{
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 11px;
+    max-width: 162px;
+    text-align: center;
+}
+
+.spiceJet{
+    padding-left: 15rem;
+}
+.goAir{
+    padding-left: 15rem;
+}
+.p-btn3{
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 11px;
+    max-width: 162px;
+    text-align: center;
+}
+.p-btn4{
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 11px;
+    max-width: 162px;
+    text-align: center;
+}
+.visTara{
+    padding-left: 13rem;
+}
+.airIndia{
+    padding-left: 13rem;
+}
+.p-btn5{
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 11px;
+    max-width: 162px;
+    text-align: center;
+}
+.p-btn6{
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 11px;
+    max-width: 162px;
+    text-align: center;
+}
+.truJet{
+    padding-left: 14rem;
+}
+.p-btn7{
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 11px;
+    max-width: 162px;
+    text-align: center;
+}
+
+@media screen and (max-width:1550px) {
+
+    .overlay{
+        height: 93%;
+    }
+    
+
+}
+@media screen and (max-width:1500px) {
+    
+    .headingCheckIn{
+        margin-top: 31rem;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+
+    .overlay{
+        height: 73%;
+    }
+    .headingCheckIn{
+        margin-top: 36rem;
+        margin-left: -234px;
+        max-width: 123%;
+    }
+    .airAsia {
+        padding-left: 13rem;
+    }
+    .indigo {
+        padding-left: 9rem;
+    }
+    .spiceJet {
+        padding-left: 8rem;
+    }
+    .goAir {
+        padding-left: 9rem;
+    }
+    .visTara {
+        padding-left: 7rem;
+    }
+    .airIndia {
+        padding-left: 6rem;
+    }
+    .truJet {
+        padding-left: 8rem;
+    }
+}
+@media screen and (max-width: 2560px) {
+    .headingCheckIn {
+        margin-top: 30rem;
+    }
+    .overlay {
+        height: 90%;  
+    }
+}
+@media screen and (max-width: 1550px) {
+    .headingCheckIn {
+        margin-top: 34rem;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .headingCheckIn {
+        margin-top: 32rem;
+    }
+}
+@media screen and (max-width: 1440px) {
+    
+    .overlay {
+        height: 84%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .headingCheckIn {
+        margin-top: 36rem;
+    }
+    .overlay {
+        height: 74%;
+    }
+}
+@media screen and (max-width: 1000px) {
+
+    .overlay{
+        height: 94%;
+    }
+    .headingCheckIn{
+        margin-top: 33rem;
+        margin-left: -219px;
+        max-width: 118%;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .overlay{
+        height: 100%;
+    }
+    .headingCheckIn{
+        margin-top: 31rem;
+        margin-left: -177px;
+        max-width: 131%;
+    }
+}
+@media screen and (max-width: 425px) {
+
+    .overlay{
+        height: 86%;
+    }
+    .headingCheckIn{
+        margin-top: 28rem;
+        margin-left: -177px;
+        max-width: 131%;
+    }
+    .impo p{
+        padding: 17px 45px;
+        font-size: 40px;
+    }
+    .commonfont{
+        font-size:45px;
+    }
+}
+@media screen and (max-width: 375px) {
+
+    .headingCheckIn{
+        margin-top: 29rem;
+        margin-left: -292px;
+        max-width: 131%;
+    }
+    .overlay {
+        height: 85%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .headingCheckIn{
+        margin-top: 31rem;
+        margin-left: -292px;
+        max-width: 131%;
+    }
+    .overlay {
+        height: 75%;
+    }
+    .airAsia{
+        padding-left: 11rem;
+    }
+    .indigo {
+        padding-left: 9rem;
+    }
+    .spiceJet {
+        padding-left: 5rem;
+    }
+    .goAir {
+        padding-left: 7rem;
+    }
+    .visTara {
+        padding-left: 4rem;
+    }
+    .airIndia {
+        padding-left: 6rem;
+    }
+    .truJet {
+        padding-left: 5rem;
+    }
+}

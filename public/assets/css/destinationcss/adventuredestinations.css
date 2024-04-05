@@ -1,0 +1,81 @@
+Antarctica* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    gap: 50px;
+}
+
+.grid-three-column {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contain {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.contain h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.card-1 {
+    padding: 20px 0px;
+}
+
+.card-2 {
+    padding: 20px 0px;
+}
+
+.Antarctica,
+.Ice-Land,
+.Ladakh,
+.Manali,
+.Nepal,
+.Rajasthan {
+    box-shadow: 0 10px 20px rgb(40 40 40);
+}
+
+.Antarctica img,
+.Ice-Land img,
+.Ladakh img,
+.Manali img,
+.Nepal img,
+.Rajasthan img {
+    width: 100%;
+}
+
+.Antarctica .overlay,
+.Ice-Land .overlay,
+.Ladakh .overlay,
+.Manali .overlay,
+.Nepal .overlay,
+.Rajasthan .overlay {
+    padding: 10px;
+}
+
+.Antarctica .overlay a,
+.Ice-Land .overlay a,
+.Ladakh .overlay a,
+.Manali .overlay a,
+.Nepal .overlay a,
+.Rajasthan .overlay a {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+}

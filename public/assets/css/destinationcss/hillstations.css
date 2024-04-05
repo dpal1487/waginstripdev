@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    gap: 50px;
+}
+
+.grid-three-column {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contain {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.contain h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.card-1 {
+    padding: 20px 0px;
+}
+
+.card-2 {
+    padding: 20px 0px;
+}
+
+.austria,
+.darjeeling,
+.Kashmir,
+.mussoorie,
+.ooty,
+.switzerland {
+    box-shadow: 0 10px 20px rgb(40 40 40);
+}
+
+.austria img,
+.darjeeling img,
+.Kashmir img,
+.mussoorie img,
+.ooty img,
+.switzerland img {
+    width: 100%;
+}
+
+.austria .overlay,
+.darjeeling .overlay,
+.Kashmir .overlay,
+.mussoorie .overlay,
+.ooty .overlay,
+.switzerland .overlay {
+    padding: 10px;
+}
+
+.austria .overlay a,
+.darjeeling .overlay a,
+.Kashmir .overlay a,
+.mussoorie .overlay a,
+.ooty .overlay a,
+.switzerland .overlay a {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+}

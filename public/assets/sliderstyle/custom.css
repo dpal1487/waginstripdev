@@ -1,0 +1,120 @@
+
+#exampleSlider {
+  position: relative;
+  box-shadow: 0 3px 30px 0 rgb(0 0 0 / 10%);
+  background-color: #ffffff;
+}
+@media (max-width: 767px) {
+  #exampleSlider {
+    border-color: transparent;
+  }
+}
+#exampleSlider .MS-content {
+  margin: 5px 3%;
+  overflow: hidden;
+  white-space: nowrap;
+  /*border: 1px solid #d6d6d6;*/
+}
+
+.actived{
+    border-bottom: 8px #0091ff solid;
+    margin: -4px;
+    color: #0091ff;
+}
+.actived a{
+  color: #0091ff;
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider .MS-content .item {
+      display: inline-block;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    border: 1px solid #bfbfbf;
+     border-right: none; 
+    width: 13%;
+}
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 576px) {
+  #exampleSlider .MS-content .item {
+    width: 20%;
+  }
+  
+
+  
+}
+
+@media (max-width: 1200px) {
+  #exampleSlider .MS-content .item {
+    width: 25%;
+  }
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-content .item {
+    width: 33.3333%;
+  }
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content .item {
+    width: 20%;
+  }
+}
+.MS-content .item .dateone {
+  font-size: 11px;
+  font-weight: 900;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  color: #0164a3;
+}
+
+#exampleSlider .MS-content .item .prr {
+  font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    color: #0164a3;
+    vertical-align: middle;
+    margin: 0;
+    padding: 7px 0;
+}
+
+.item a{
+  text-decoration: none;
+}
+
+#exampleSlider .MS-controls button {
+  position: absolute;
+    border: none;
+    background: #0a74b7;
+    font-size: 20px;
+    outline: 0;
+    top: 0px;
+    padding: 14px 6px;
+    color: #ffffff;
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-controls button {
+    display: none;
+  }
+}
+#exampleSlider .MS-controls button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#exampleSlider .MS-controls .MS-right {
+  right: 0.1%;
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-right {
+    right: -2px;
+  }
+}
