@@ -1,33 +1,4 @@
 <?php return array (
-  'barryvdh/laravel-dompdf' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Barryvdh\\DomPDF\\ServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'PDF' => 'Barryvdh\\DomPDF\\Facade',
-    ),
-  ),
-  'facade/ignition' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Facade\\Ignition\\IgnitionServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Flare' => 'Facade\\Ignition\\Facades\\Flare',
-    ),
-  ),
-  'fruitcake/laravel-cors' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Fruitcake\\Cors\\CorsServiceProvider',
-    ),
-  ),
   'laravel/sail' => 
   array (
     'providers' => 
@@ -56,25 +27,6 @@
       0 => 'Laravel\\Ui\\UiServiceProvider',
     ),
   ),
-  'laravelcollective/html' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Collective\\Html\\HtmlServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Form' => 'Collective\\Html\\FormFacade',
-      'Html' => 'Collective\\Html\\HtmlFacade',
-    ),
-  ),
-  'loveycom/cashfree' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'LoveyCom\\CashFree\\CashFreeServiceProvider',
-    ),
-  ),
   'nesbot/carbon' => 
   array (
     'providers' => 
@@ -89,6 +41,13 @@
       0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     ),
   ),
+  'nunomaduro/termwind' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Termwind\\Laravel\\TermwindServiceProvider',
+    ),
+  ),
   'realrashid/sweet-alert' => 
   array (
     'providers' => 
@@ -100,15 +59,15 @@
       'Alert' => 'RealRashid\\SweetAlert\\Facades\\Alert',
     ),
   ),
-  'srmklive/paypal' => 
+  'spatie/laravel-ignition' => 
   array (
     'providers' => 
     array (
-      0 => 'Srmklive\\PayPal\\Providers\\PayPalServiceProvider',
+      0 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
     ),
     'aliases' => 
     array (
-      'PayPal' => 'Srmklive\\PayPal\\Facades\\PayPal',
+      'Flare' => 'Spatie\\LaravelIgnition\\Facades\\Flare',
     ),
   ),
 );
