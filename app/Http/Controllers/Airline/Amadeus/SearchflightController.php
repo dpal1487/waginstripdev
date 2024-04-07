@@ -78,7 +78,6 @@ class SearchflightController extends Controller
         $params = $HeaderController->State(false);
         $client = new Client($params);
 
-
         $travellers = ['noOfAdults' => $request['noOfAdults'], 'noOfChilds' => $request['noOfChilds'], 'noOfInfants' => $request['noOfInfants']];
         $departure = Airportiatacode::where("iata", $request['departure'])->first();
         $arrival = Airportiatacode::where("iata", $request['arrival'])->first();

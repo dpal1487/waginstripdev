@@ -1,12 +1,12 @@
 @php
-//    $keyword_string = '';
-//    $get_keywords = session()->get('keyword_string');
-//    if(!empty($get_keywords)){
-//        if(!empty($get_keywords['keyword_lenth'])){
-//            $keylenth = $get_keywords['keyword_lenth'];
-//            $keyword_string = implode(',' , $get_keywords['data']);
-//        }
-//    }
+   $keyword_string = '';
+   $get_keywords = session()->get('keyword_string');
+   if(!empty($get_keywords)){
+       if(!empty($get_keywords['keyword_lenth'])){
+           $keylenth = $get_keywords['keyword_lenth'];
+           $keyword_string = implode(',' , $get_keywords['data']);
+       }
+   }
 @endphp
 <head>
     <meta charset="utf-8" />
